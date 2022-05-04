@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Defense of Consolas", "The Defense of Consolas.csproj", "{114A8293-D52D-4EE0-938E-99C47580F60F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{114A8293-D52D-4EE0-938E-99C47580F60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114A8293-D52D-4EE0-938E-99C47580F60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114A8293-D52D-4EE0-938E-99C47580F60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114A8293-D52D-4EE0-938E-99C47580F60F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {432765D2-7D7C-45C5-ACC1-2E692EF486FE}
+	EndGlobalSection
+EndGlobal

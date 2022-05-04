@@ -1,0 +1,15 @@
+E:\Repos\Players Guide Projects\The Prototype\bin\Debug\net6.0\The Prototype.exe
+E:\Repos\Players Guide Projects\The Prototype\bin\Debug\net6.0\The Prototype.deps.json
+E:\Repos\Players Guide Projects\The Prototype\bin\Debug\net6.0\The Prototype.runtimeconfig.json
+E:\Repos\Players Guide Projects\The Prototype\bin\Debug\net6.0\The Prototype.dll
+E:\Repos\Players Guide Projects\The Prototype\bin\Debug\net6.0\The Prototype.pdb
+E:\Repos\Players Guide Projects\The Prototype\obj\Debug\net6.0\The Prototype.csproj.AssemblyReference.cache
+E:\Repos\Players Guide Projects\The Prototype\obj\Debug\net6.0\The Prototype.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\Players Guide Projects\The Prototype\obj\Debug\net6.0\The Prototype.AssemblyInfoInputs.cache
+E:\Repos\Players Guide Projects\The Prototype\obj\Debug\net6.0\The Prototype.AssemblyInfo.cs
+E:\Repos\Players Guide Projects\The Prototype\obj\Debug\net6.0\The Prototype.csproj.CoreCompileInputs.cache
+E:\Repos\Players Guide Projects\The Prototype\obj\Debug\net6.0\The Prototype.dll
+E:\Repos\Players Guide Projects\The Prototype\obj\Debug\net6.0\refint\The Prototype.dll
+E:\Repos\Players Guide Projects\The Prototype\obj\Debug\net6.0\The Prototype.pdb
+E:\Repos\Players Guide Projects\The Prototype\obj\Debug\net6.0\The Prototype.genruntimeconfig.cache
+E:\Repos\Players Guide Projects\The Prototype\obj\Debug\net6.0\ref\The Prototype.dll

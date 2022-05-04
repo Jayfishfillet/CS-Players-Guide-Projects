@@ -1,0 +1,15 @@
+E:\Repos\Players Guide Projects\The Variable Shop Returns\bin\Debug\net6.0\The Variable Shop Returns.exe
+E:\Repos\Players Guide Projects\The Variable Shop Returns\bin\Debug\net6.0\The Variable Shop Returns.deps.json
+E:\Repos\Players Guide Projects\The Variable Shop Returns\bin\Debug\net6.0\The Variable Shop Returns.runtimeconfig.json
+E:\Repos\Players Guide Projects\The Variable Shop Returns\bin\Debug\net6.0\The Variable Shop Returns.dll
+E:\Repos\Players Guide Projects\The Variable Shop Returns\bin\Debug\net6.0\The Variable Shop Returns.pdb
+E:\Repos\Players Guide Projects\The Variable Shop Returns\obj\Debug\net6.0\The Variable Shop Returns.csproj.AssemblyReference.cache
+E:\Repos\Players Guide Projects\The Variable Shop Returns\obj\Debug\net6.0\The Variable Shop Returns.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\Players Guide Projects\The Variable Shop Returns\obj\Debug\net6.0\The Variable Shop Returns.AssemblyInfoInputs.cache
+E:\Repos\Players Guide Projects\The Variable Shop Returns\obj\Debug\net6.0\The Variable Shop Returns.AssemblyInfo.cs
+E:\Repos\Players Guide Projects\The Variable Shop Returns\obj\Debug\net6.0\The Variable Shop Returns.csproj.CoreCompileInputs.cache
+E:\Repos\Players Guide Projects\The Variable Shop Returns\obj\Debug\net6.0\The Variable Shop Returns.dll
+E:\Repos\Players Guide Projects\The Variable Shop Returns\obj\Debug\net6.0\refint\The Variable Shop Returns.dll
+E:\Repos\Players Guide Projects\The Variable Shop Returns\obj\Debug\net6.0\The Variable Shop Returns.pdb
+E:\Repos\Players Guide Projects\The Variable Shop Returns\obj\Debug\net6.0\The Variable Shop Returns.genruntimeconfig.cache
+E:\Repos\Players Guide Projects\The Variable Shop Returns\obj\Debug\net6.0\ref\The Variable Shop Returns.dll

@@ -1,0 +1,15 @@
+E:\Repos\Players Guide Projects\Repairing the Clocktower\bin\Debug\net6.0\Repairing the Clocktower.exe
+E:\Repos\Players Guide Projects\Repairing the Clocktower\bin\Debug\net6.0\Repairing the Clocktower.deps.json
+E:\Repos\Players Guide Projects\Repairing the Clocktower\bin\Debug\net6.0\Repairing the Clocktower.runtimeconfig.json
+E:\Repos\Players Guide Projects\Repairing the Clocktower\bin\Debug\net6.0\Repairing the Clocktower.dll
+E:\Repos\Players Guide Projects\Repairing the Clocktower\bin\Debug\net6.0\Repairing the Clocktower.pdb
+E:\Repos\Players Guide Projects\Repairing the Clocktower\obj\Debug\net6.0\Repairing the Clocktower.csproj.AssemblyReference.cache
+E:\Repos\Players Guide Projects\Repairing the Clocktower\obj\Debug\net6.0\Repairing the Clocktower.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\Players Guide Projects\Repairing the Clocktower\obj\Debug\net6.0\Repairing the Clocktower.AssemblyInfoInputs.cache
+E:\Repos\Players Guide Projects\Repairing the Clocktower\obj\Debug\net6.0\Repairing the Clocktower.AssemblyInfo.cs
+E:\Repos\Players Guide Projects\Repairing the Clocktower\obj\Debug\net6.0\Repairing the Clocktower.csproj.CoreCompileInputs.cache
+E:\Repos\Players Guide Projects\Repairing the Clocktower\obj\Debug\net6.0\Repairing the Clocktower.dll
+E:\Repos\Players Guide Projects\Repairing the Clocktower\obj\Debug\net6.0\refint\Repairing the Clocktower.dll
+E:\Repos\Players Guide Projects\Repairing the Clocktower\obj\Debug\net6.0\Repairing the Clocktower.pdb
+E:\Repos\Players Guide Projects\Repairing the Clocktower\obj\Debug\net6.0\Repairing the Clocktower.genruntimeconfig.cache
+E:\Repos\Players Guide Projects\Repairing the Clocktower\obj\Debug\net6.0\ref\Repairing the Clocktower.dll

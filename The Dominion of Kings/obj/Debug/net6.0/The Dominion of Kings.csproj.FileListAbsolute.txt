@@ -1,0 +1,15 @@
+E:\Repos\Players Guide Projects\The Dominion of Kings\bin\Debug\net6.0\The Dominion of Kings.exe
+E:\Repos\Players Guide Projects\The Dominion of Kings\bin\Debug\net6.0\The Dominion of Kings.deps.json
+E:\Repos\Players Guide Projects\The Dominion of Kings\bin\Debug\net6.0\The Dominion of Kings.runtimeconfig.json
+E:\Repos\Players Guide Projects\The Dominion of Kings\bin\Debug\net6.0\The Dominion of Kings.dll
+E:\Repos\Players Guide Projects\The Dominion of Kings\bin\Debug\net6.0\The Dominion of Kings.pdb
+E:\Repos\Players Guide Projects\The Dominion of Kings\obj\Debug\net6.0\The Dominion of Kings.csproj.AssemblyReference.cache
+E:\Repos\Players Guide Projects\The Dominion of Kings\obj\Debug\net6.0\The Dominion of Kings.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\Players Guide Projects\The Dominion of Kings\obj\Debug\net6.0\The Dominion of Kings.AssemblyInfoInputs.cache
+E:\Repos\Players Guide Projects\The Dominion of Kings\obj\Debug\net6.0\The Dominion of Kings.AssemblyInfo.cs
+E:\Repos\Players Guide Projects\The Dominion of Kings\obj\Debug\net6.0\The Dominion of Kings.csproj.CoreCompileInputs.cache
+E:\Repos\Players Guide Projects\The Dominion of Kings\obj\Debug\net6.0\The Dominion of Kings.dll
+E:\Repos\Players Guide Projects\The Dominion of Kings\obj\Debug\net6.0\refint\The Dominion of Kings.dll
+E:\Repos\Players Guide Projects\The Dominion of Kings\obj\Debug\net6.0\The Dominion of Kings.pdb
+E:\Repos\Players Guide Projects\The Dominion of Kings\obj\Debug\net6.0\The Dominion of Kings.genruntimeconfig.cache
+E:\Repos\Players Guide Projects\The Dominion of Kings\obj\Debug\net6.0\ref\The Dominion of Kings.dll

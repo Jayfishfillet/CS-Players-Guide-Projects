@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\obj\Debug\net6.0\Simula's Soup.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\obj\Debug\net6.0\Simula's Soup.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\obj\Debug\net6.0\Simula's Soup.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\obj\Debug\net6.0\Simula's Soup.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\obj\Debug\net6.0\Simula's Soup.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\bin\Debug\net6.0\Simula's Soup.exe
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\bin\Debug\net6.0\Simula's Soup.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\bin\Debug\net6.0\Simula's Soup.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\bin\Debug\net6.0\Simula's Soup.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\bin\Debug\net6.0\Simula's Soup.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\obj\Debug\net6.0\Simula's Soup.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\obj\Debug\net6.0\refint\Simula's Soup.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\obj\Debug\net6.0\Simula's Soup.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\obj\Debug\net6.0\Simula's Soup.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Soup\obj\Debug\net6.0\ref\Simula's Soup.dll

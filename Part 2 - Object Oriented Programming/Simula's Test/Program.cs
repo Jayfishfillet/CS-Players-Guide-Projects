@@ -3,8 +3,8 @@
 
 while (true)
 {
-    Ask();
-    switch (Console.ReadLine().ToLower())
+    
+    switch (Ask(chestStatus))
     {
         case "unlock":
             if (chestStatus == Chest.locked)
@@ -73,9 +73,10 @@ while (true)
 }
 
 
-void Ask()
+string Ask(Chest currentChestStatus)
 {
-    Console.Write($"Chest is {chestStatus}. What will you do? ");
+    Console.Write($"Chest is {currentChestStatus}. What will you do? ");
+    return Console.ReadLine().ToLower();
 }
 
 enum Chest  { locked, closed, open  };

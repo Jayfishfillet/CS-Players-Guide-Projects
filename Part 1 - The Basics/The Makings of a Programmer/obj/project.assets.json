@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repos\\Players Guide Projects\\The Makings of a Programmer\\The Makings of a Programmer.csproj",
+      "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Makings of a Programmer\\The Makings of a Programmer.csproj",
       "projectName": "The Makings of a Programmer",
-      "projectPath": "E:\\Repos\\Players Guide Projects\\The Makings of a Programmer\\The Makings of a Programmer.csproj",
+      "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Makings of a Programmer\\The Makings of a Programmer.csproj",
       "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-      "outputPath": "E:\\Repos\\Players Guide Projects\\The Makings of a Programmer\\obj\\",
+      "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Makings of a Programmer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2upRBQO8kK9CYV4KNkYCNES7GfFFCVS9r6uEZqC7mONQM5OwB/7Pjw7GhPuUcp5jsW0h4CD324cLbw18uaz9MA==",
+  "dgSpecHash": "0enDpqAc1dwGb0IqSgooSUuQjt36zVYvAua44owNV3myJxeFX+45w30P14zTJcQCnNavUnt/K3oeciuohvLAbg==",
   "success": true,
-  "projectFilePath": "E:\\Repos\\Players Guide Projects\\Countdown\\Countdown.csproj",
+  "projectFilePath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Countdown\\Countdown.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

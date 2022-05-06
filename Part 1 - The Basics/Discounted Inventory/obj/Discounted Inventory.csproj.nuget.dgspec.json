@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\Players Guide Projects\\Discounted Inventory\\Discounted Inventory.csproj": {}
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Discounted Inventory\\Discounted Inventory.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\Players Guide Projects\\Discounted Inventory\\Discounted Inventory.csproj": {
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Discounted Inventory\\Discounted Inventory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\Players Guide Projects\\Discounted Inventory\\Discounted Inventory.csproj",
+        "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Discounted Inventory\\Discounted Inventory.csproj",
         "projectName": "Discounted Inventory",
-        "projectPath": "E:\\Repos\\Players Guide Projects\\Discounted Inventory\\Discounted Inventory.csproj",
+        "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Discounted Inventory\\Discounted Inventory.csproj",
         "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\Players Guide Projects\\Discounted Inventory\\obj\\",
+        "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Discounted Inventory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

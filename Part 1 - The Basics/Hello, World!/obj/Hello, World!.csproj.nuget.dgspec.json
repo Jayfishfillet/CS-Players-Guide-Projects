@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\Players Guide Projects\\Hello, World!\\Hello, World!.csproj": {}
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Hello, World!\\Hello, World!.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\Players Guide Projects\\Hello, World!\\Hello, World!.csproj": {
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Hello, World!\\Hello, World!.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\Players Guide Projects\\Hello, World!\\Hello, World!.csproj",
+        "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Hello, World!\\Hello, World!.csproj",
         "projectName": "Hello, World!",
-        "projectPath": "E:\\Repos\\Players Guide Projects\\Hello, World!\\Hello, World!.csproj",
+        "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Hello, World!\\Hello, World!.csproj",
         "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\Players Guide Projects\\Hello, World!\\obj\\",
+        "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Hello, World!\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repos\\Players Guide Projects\\Buying Inventory\\Buying Inventory.csproj",
+      "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Buying Inventory\\Buying Inventory.csproj",
       "projectName": "Buying Inventory",
-      "projectPath": "E:\\Repos\\Players Guide Projects\\Buying Inventory\\Buying Inventory.csproj",
+      "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Buying Inventory\\Buying Inventory.csproj",
       "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-      "outputPath": "E:\\Repos\\Players Guide Projects\\Buying Inventory\\obj\\",
+      "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Buying Inventory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

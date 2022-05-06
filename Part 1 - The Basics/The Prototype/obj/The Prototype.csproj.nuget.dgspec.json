@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\Players Guide Projects\\The Prototype\\The Prototype.csproj": {}
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Prototype\\The Prototype.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\Players Guide Projects\\The Prototype\\The Prototype.csproj": {
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Prototype\\The Prototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\Players Guide Projects\\The Prototype\\The Prototype.csproj",
+        "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Prototype\\The Prototype.csproj",
         "projectName": "The Prototype",
-        "projectPath": "E:\\Repos\\Players Guide Projects\\The Prototype\\The Prototype.csproj",
+        "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Prototype\\The Prototype.csproj",
         "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\Players Guide Projects\\The Prototype\\obj\\",
+        "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Prototype\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

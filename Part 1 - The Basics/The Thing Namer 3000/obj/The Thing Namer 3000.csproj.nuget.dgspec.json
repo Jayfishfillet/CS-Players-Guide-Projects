@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\Players Guide Projects\\The Thing Namer 3000\\The Thing Namer 3000.csproj": {}
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Thing Namer 3000\\The Thing Namer 3000.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\Players Guide Projects\\The Thing Namer 3000\\The Thing Namer 3000.csproj": {
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Thing Namer 3000\\The Thing Namer 3000.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\Players Guide Projects\\The Thing Namer 3000\\The Thing Namer 3000.csproj",
+        "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Thing Namer 3000\\The Thing Namer 3000.csproj",
         "projectName": "The Thing Namer 3000",
-        "projectPath": "E:\\Repos\\Players Guide Projects\\The Thing Namer 3000\\The Thing Namer 3000.csproj",
+        "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Thing Namer 3000\\The Thing Namer 3000.csproj",
         "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\Players Guide Projects\\The Thing Namer 3000\\obj\\",
+        "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Thing Namer 3000\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

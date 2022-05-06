@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\Players Guide Projects\\Consolas as Telim\\Consolas as Telim.csproj": {}
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Consolas as Telim\\Consolas as Telim.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\Players Guide Projects\\Consolas as Telim\\Consolas as Telim.csproj": {
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Consolas as Telim\\Consolas as Telim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\Players Guide Projects\\Consolas as Telim\\Consolas as Telim.csproj",
+        "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Consolas as Telim\\Consolas as Telim.csproj",
         "projectName": "Consolas as Telim",
-        "projectPath": "E:\\Repos\\Players Guide Projects\\Consolas as Telim\\Consolas as Telim.csproj",
+        "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Consolas as Telim\\Consolas as Telim.csproj",
         "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\Players Guide Projects\\Consolas as Telim\\obj\\",
+        "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Consolas as Telim\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

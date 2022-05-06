@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H/N0e8zkZo6GxbKgtufG44QJap+WurfSM9CbdWuKgb0ifrOMTJcb4n8rixOb5iaJKsXIHx2uAibEJhyrngSzTw==",
+  "dgSpecHash": "2UpKOSVez/YuwXiobEeLvXT8pPj1NZA+xa3Y0S3xQNEycEnqsP55cCkJBMbLVdk6B/YrtShs3+nI4p7/thlNZA==",
   "success": true,
-  "projectFilePath": "E:\\Repos\\Players Guide Projects\\Install Visual Studio\\Install Visual Studio.csproj",
+  "projectFilePath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Install Visual Studio\\Install Visual Studio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

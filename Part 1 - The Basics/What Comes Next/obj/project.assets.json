@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repos\\Players Guide Projects\\What Comes Next\\What Comes Next.csproj",
+      "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\What Comes Next\\What Comes Next.csproj",
       "projectName": "What Comes Next",
-      "projectPath": "E:\\Repos\\Players Guide Projects\\What Comes Next\\What Comes Next.csproj",
+      "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\What Comes Next\\What Comes Next.csproj",
       "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-      "outputPath": "E:\\Repos\\Players Guide Projects\\What Comes Next\\obj\\",
+      "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\What Comes Next\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

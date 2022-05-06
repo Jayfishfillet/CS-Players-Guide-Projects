@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\Players Guide Projects\\The Magic Cannon\\The Magic Cannon.csproj": {}
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Magic Cannon\\The Magic Cannon.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\Players Guide Projects\\The Magic Cannon\\The Magic Cannon.csproj": {
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Magic Cannon\\The Magic Cannon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\Players Guide Projects\\The Magic Cannon\\The Magic Cannon.csproj",
+        "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Magic Cannon\\The Magic Cannon.csproj",
         "projectName": "The Magic Cannon",
-        "projectPath": "E:\\Repos\\Players Guide Projects\\The Magic Cannon\\The Magic Cannon.csproj",
+        "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Magic Cannon\\The Magic Cannon.csproj",
         "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\Players Guide Projects\\The Magic Cannon\\obj\\",
+        "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\The Magic Cannon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

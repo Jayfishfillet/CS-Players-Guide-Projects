@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\bin\Debug\net6.0\Simula's Test.exe
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\bin\Debug\net6.0\Simula's Test.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\bin\Debug\net6.0\Simula's Test.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\bin\Debug\net6.0\Simula's Test.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\bin\Debug\net6.0\Simula's Test.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\obj\Debug\net6.0\Simula's Test.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\obj\Debug\net6.0\Simula's Test.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\obj\Debug\net6.0\Simula's Test.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\obj\Debug\net6.0\Simula's Test.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\obj\Debug\net6.0\Simula's Test.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\obj\Debug\net6.0\Simula's Test.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\obj\Debug\net6.0\refint\Simula's Test.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\obj\Debug\net6.0\Simula's Test.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\obj\Debug\net6.0\Simula's Test.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Simula's Test\obj\Debug\net6.0\ref\Simula's Test.dll

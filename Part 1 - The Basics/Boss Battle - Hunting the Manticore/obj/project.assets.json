@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repos\\Players Guide Projects\\Boss Battle - Hunting the Manticore\\Boss Battle - Hunting the Manticore.csproj",
+      "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Boss Battle - Hunting the Manticore\\Boss Battle - Hunting the Manticore.csproj",
       "projectName": "Boss Battle - Hunting the Manticore",
-      "projectPath": "E:\\Repos\\Players Guide Projects\\Boss Battle - Hunting the Manticore\\Boss Battle - Hunting the Manticore.csproj",
+      "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Boss Battle - Hunting the Manticore\\Boss Battle - Hunting the Manticore.csproj",
       "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-      "outputPath": "E:\\Repos\\Players Guide Projects\\Boss Battle - Hunting the Manticore\\obj\\",
+      "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Boss Battle - Hunting the Manticore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

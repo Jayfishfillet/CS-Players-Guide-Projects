@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repos\\Players Guide Projects\\Taking a Number\\Taking a Number.csproj",
+      "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Taking a Number\\Taking a Number.csproj",
       "projectName": "Taking a Number",
-      "projectPath": "E:\\Repos\\Players Guide Projects\\Taking a Number\\Taking a Number.csproj",
+      "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Taking a Number\\Taking a Number.csproj",
       "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-      "outputPath": "E:\\Repos\\Players Guide Projects\\Taking a Number\\obj\\",
+      "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 1 - The Basics\\Taking a Number\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

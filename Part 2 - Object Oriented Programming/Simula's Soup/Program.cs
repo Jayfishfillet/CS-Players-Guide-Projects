@@ -23,13 +23,10 @@ Food GetFoodChoice()
         {
             case "soup":
                 return Food.soup;
-                break;
             case "stew":
                 return Food.stew;
-                break;
             case "gumbo":
                 return Food.gumbo;
-                break;
             default:
                 Console.WriteLine("We don't have that here.\n");
                 break;
@@ -45,16 +42,12 @@ Ingredient GetIngredientChoice()
         {
             case "mushrooms":
                 return Ingredient.mushrooms;
-                break;
             case "chicken":
                 return Ingredient.chicken;
-                break;
             case "carrots":
                 return Ingredient.carrots;
-                break;
             case "potatoes":
                 return Ingredient.potatoes;
-                break;
             default:
                 Console.WriteLine("We don't have that here.\n");
                 break;
@@ -70,13 +63,10 @@ Seasoning GetSeasoningChoice()
         {
             case "spicy":
                 return Seasoning.spicy;
-                break;
             case "salty":
                 return Seasoning.salty;
-                break;
             case "sweet":
                 return Seasoning.sweet;
-                break;
             default:
                 Console.WriteLine("We don't have that here.\n");
                 break;

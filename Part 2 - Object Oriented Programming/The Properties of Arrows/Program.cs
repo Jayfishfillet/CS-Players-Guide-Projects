@@ -1,9 +1,9 @@
-﻿Console.Title = "Vin's Trouble";
+﻿Console.Title = "The Properties of Arrows";
 
 Arrow completedArrow = new Arrow(GetArrowhead(), GetFletching(), GetArrowLength());
 
-Console.WriteLine($"{completedArrow.returnArrowhead()} arrowhead, {completedArrow.returnFletching()} fletching, and a length of {completedArrow.returnLength()}");
-Console.WriteLine($"This completed arrow will cost {completedArrow.GetCost()}");
+Console.WriteLine($"{completedArrow.arrowHead} arrowhead, {completedArrow.fletching} fletching, and a length of {completedArrow.length}");
+Console.WriteLine($"This completed arrow will cost {completedArrow.Cost}");
 
 ArrowHead GetArrowhead()
 {
@@ -47,53 +47,37 @@ float GetArrowLength()
 }
 class Arrow
 {
-    private ArrowHead arrowHead;
-    private Fletching fletching;
-    private float length;
+    public ArrowHead arrowHead { get; }
+    public Fletching fletching { get; }
+    public float length { get; }
+    public float Cost
+    {
+        get
+        {
+            float arrowHeadCost = this.arrowHead switch
+            {
+                ArrowHead.Steel => 10f,
+                ArrowHead.Wood => 3f,
+                ArrowHead.Obsidian => 5f
+            };
+
+            float fletchingCost = this.fletching switch
+            {
+                Fletching.Plastic => 10f,
+                Fletching.TurkeyFeathers => 5f,
+                Fletching.GooseFeathers => 3f
+            };
+
+            float lengthCost = this.length * 0.05f;
+            return (arrowHeadCost + fletchingCost + lengthCost);
+        }
+    }
 
     public Arrow(ArrowHead arrowHead, Fletching fletching, float length)
     {
         this.arrowHead = arrowHead;
         this.fletching = fletching;
         this.length = length;
-    }
-
-    public ArrowHead returnArrowhead()
-    {
-        return arrowHead;
-    }
-
-    public Fletching returnFletching()
-    {
-        return fletching;
-    }
-
-    public float returnLength()
-    { 
-        return length;
-    }
-
-    public float GetCost()
-    {
-        float arrowHeadCost = this.arrowHead switch
-        {
-            ArrowHead.Steel => 10f,
-            ArrowHead.Wood => 3f,
-            ArrowHead.Obsidian => 5f
-        };
-
-        float fletchingCost = this.fletching switch
-        {
-            Fletching.Plastic => 10f,
-            Fletching.TurkeyFeathers => 5f,
-            Fletching.GooseFeathers => 3f
-        };
-
-        float lengthCost = this.length * 0.05f;
-
-
-
-        return (arrowHeadCost + fletchingCost + lengthCost);
     }
 }
 

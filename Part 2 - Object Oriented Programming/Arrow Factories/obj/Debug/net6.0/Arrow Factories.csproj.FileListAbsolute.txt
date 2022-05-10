@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\obj\Debug\net6.0\Arrow Factories.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\obj\Debug\net6.0\Arrow Factories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\obj\Debug\net6.0\Arrow Factories.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\obj\Debug\net6.0\Arrow Factories.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\obj\Debug\net6.0\Arrow Factories.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\bin\Debug\net6.0\Arrow Factories.exe
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\bin\Debug\net6.0\Arrow Factories.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\bin\Debug\net6.0\Arrow Factories.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\bin\Debug\net6.0\Arrow Factories.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\bin\Debug\net6.0\Arrow Factories.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\obj\Debug\net6.0\Arrow Factories.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\obj\Debug\net6.0\refint\Arrow Factories.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\obj\Debug\net6.0\Arrow Factories.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\obj\Debug\net6.0\Arrow Factories.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Arrow Factories\obj\Debug\net6.0\ref\Arrow Factories.dll

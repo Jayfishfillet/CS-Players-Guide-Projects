@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\bin\Debug\net6.0\Boss Battle - The Card.exe
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\bin\Debug\net6.0\Boss Battle - The Card.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\bin\Debug\net6.0\Boss Battle - The Card.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\bin\Debug\net6.0\Boss Battle - The Card.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\bin\Debug\net6.0\Boss Battle - The Card.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\obj\Debug\net6.0\Boss Battle - The Card.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\obj\Debug\net6.0\Boss Battle - The Card.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\obj\Debug\net6.0\Boss Battle - The Card.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\obj\Debug\net6.0\Boss Battle - The Card.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\obj\Debug\net6.0\Boss Battle - The Card.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\obj\Debug\net6.0\Boss Battle - The Card.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\obj\Debug\net6.0\refint\Boss Battle - The Card.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\obj\Debug\net6.0\Boss Battle - The Card.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\obj\Debug\net6.0\Boss Battle - The Card.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - The Card\obj\Debug\net6.0\ref\Boss Battle - The Card.dll

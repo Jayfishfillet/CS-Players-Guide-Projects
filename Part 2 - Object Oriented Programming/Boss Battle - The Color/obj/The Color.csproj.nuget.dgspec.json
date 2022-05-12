@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\CS-Players-Guide-Projects\\Part 2 - Object Oriented Programming\\The Color\\The Color.csproj": {}
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 2 - Object Oriented Programming\\Boss Battle - The Color\\The Color.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\CS-Players-Guide-Projects\\Part 2 - Object Oriented Programming\\The Color\\The Color.csproj": {
+    "E:\\Repos\\CS-Players-Guide-Projects\\Part 2 - Object Oriented Programming\\Boss Battle - The Color\\The Color.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 2 - Object Oriented Programming\\The Color\\The Color.csproj",
+        "projectUniqueName": "E:\\Repos\\CS-Players-Guide-Projects\\Part 2 - Object Oriented Programming\\Boss Battle - The Color\\The Color.csproj",
         "projectName": "The Color",
-        "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 2 - Object Oriented Programming\\The Color\\The Color.csproj",
+        "projectPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 2 - Object Oriented Programming\\Boss Battle - The Color\\The Color.csproj",
         "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 2 - Object Oriented Programming\\The Color\\obj\\",
+        "outputPath": "E:\\Repos\\CS-Players-Guide-Projects\\Part 2 - Object Oriented Programming\\Boss Battle - The Color\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

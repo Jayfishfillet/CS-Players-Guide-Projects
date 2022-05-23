@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\bin\Debug\net6.0\Boss Battle - Rock Paper Scissors.exe
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\bin\Debug\net6.0\Boss Battle - Rock Paper Scissors.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\bin\Debug\net6.0\Boss Battle - Rock Paper Scissors.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\bin\Debug\net6.0\Boss Battle - Rock Paper Scissors.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\bin\Debug\net6.0\Boss Battle - Rock Paper Scissors.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\obj\Debug\net6.0\Boss Battle - Rock Paper Scissors.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\obj\Debug\net6.0\Boss Battle - Rock Paper Scissors.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\obj\Debug\net6.0\Boss Battle - Rock Paper Scissors.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\obj\Debug\net6.0\Boss Battle - Rock Paper Scissors.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\obj\Debug\net6.0\Boss Battle - Rock Paper Scissors.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\obj\Debug\net6.0\Boss Battle - Rock Paper Scissors.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\obj\Debug\net6.0\refint\Boss Battle - Rock Paper Scissors.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\obj\Debug\net6.0\Boss Battle - Rock Paper Scissors.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\obj\Debug\net6.0\Boss Battle - Rock Paper Scissors.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Rock Paper Scissors\obj\Debug\net6.0\ref\Boss Battle - Rock Paper Scissors.dll

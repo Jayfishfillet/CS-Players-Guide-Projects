@@ -9,21 +9,33 @@ class TicTacToe
     Player Player1 = new Player('X');
     Player Player2 = new Player('O');
     bool isPlayer1Turn = true;
+    private string player1Name;
+    private string player2Name;
 
     public void Run()
     {
+        //Ask for player names
+        Console.Write("Player 1, Type your name: ");
+        player1Name = Console.ReadLine();
+
+        Console.Write("Player 2, Type your name: ");
+        player2Name = Console.ReadLine();
+
+        //Game loopm if player wins, print win message.
+        //If the game is a draw, print a message
+        //If a win/draw condition isnt met, keep going
         while (true)
         {
-            if (Endgame.DidPlayer1Win())
+            if (Endgame.DidPlayerWin('X'))
             {
                 Board.SetBoard();
-                Console.WriteLine("\nPlayer 1 WINS!");
+                Console.WriteLine($"\n{player1Name} WINS!");
                 break;
             }
-            if (Endgame.DidPlayer2Win())
+            if (Endgame.DidPlayerWin('O'))
             {
                 Board.SetBoard();
-                Console.WriteLine("\nPlayer 2 WINS!");
+                Console.WriteLine($"\n{player2Name} WINS!");
                 break;
             }
             if (Endgame.IsDraw())
@@ -38,19 +50,18 @@ class TicTacToe
                 TurnManager();
             }
         }
-
     }
 
     public void TurnManager()
     {
         if (isPlayer1Turn)
         {
-            Player1.GetPlayerSelection("Player 1");
+            Player1.GetPlayerSelection($"{player1Name}");
             isPlayer1Turn = false;
         }
         else
         {
-            Player2.GetPlayerSelection("Player 2");
+            Player2.GetPlayerSelection($"{player2Name}");
             isPlayer1Turn = true;
         }
     }
@@ -108,47 +119,51 @@ static class Board
         Console.WriteLine($" {Position[3]} | {Position[4]} | {Position[5]} ");
         Console.WriteLine($"---+---+---");
         Console.WriteLine($" {Position[0]} | {Position[1]} | {Position[2]} ");
-        Endgame.DidPlayer1Win();
+        Endgame.DidPlayerWin('X');
+        Endgame.DidPlayerWin('O');
+
     }
 }
 
 public static class Endgame
 {
     public static bool Draw { get; private set; }
-    public static bool DidPlayer1Win()
+
+    //Accepts a player symbol to check for win condition
+    public static bool DidPlayerWin(char playerIcon)
     {
-        //Player 1 Horizontal Checks
-        if (Board.Position[6] == 'X' && Board.Position[7] == 'X' && Board.Position[8] == 'X')
+        //Horizontal Checks
+        if (Board.Position[6] == playerIcon && Board.Position[7] == playerIcon && Board.Position[8] == playerIcon)
         {
             return true;
         }
-        else if (Board.Position[3] == 'X' && Board.Position[4] == 'X' && Board.Position[5] == 'X')
+        else if (Board.Position[3] == playerIcon && Board.Position[4] == playerIcon && Board.Position[5] == playerIcon)
         {
             return true;
         }
-        else if (Board.Position[0] == 'X' && Board.Position[1] == 'X' && Board.Position[2] == 'X')
+        else if (Board.Position[0] == playerIcon && Board.Position[1] == playerIcon && Board.Position[2] == playerIcon)
         {
             return true;
         }
         //Player 1 Vertical Checks
-        else if (Board.Position[6] == 'X' && Board.Position[3] == 'X' && Board.Position[0] == 'X')
+        else if (Board.Position[6] == playerIcon && Board.Position[3] == playerIcon && Board.Position[0] == playerIcon)
         {
             return true;
         }
-        else if (Board.Position[7] == 'X' && Board.Position[4] == 'X' && Board.Position[1] == 'X')
+        else if (Board.Position[7] == playerIcon && Board.Position[4] == playerIcon && Board.Position[1] == playerIcon)
         {
             return true;
         }
-        else if (Board.Position[8] == 'X' && Board.Position[5] == 'X' && Board.Position[2] == 'X')
+        else if (Board.Position[8] == playerIcon && Board.Position[5] == playerIcon && Board.Position[2] == playerIcon)
         {
             return true;
         }
         //Player 1 Diagnal Check
-        else if (Board.Position[6] == 'X' && Board.Position[4] == 'X' && Board.Position[2] == 'X')
+        else if (Board.Position[6] == playerIcon && Board.Position[4] == playerIcon && Board.Position[2] == playerIcon)
         {
             return true;
         }
-        else if (Board.Position[8] == 'X' && Board.Position[4] == 'X' && Board.Position[0] == 'X')
+        else if (Board.Position[8] == playerIcon && Board.Position[4] == playerIcon && Board.Position[0] == playerIcon)
         {
             return true;
         }
@@ -159,56 +174,13 @@ public static class Endgame
         }
     }
 
-    public static bool DidPlayer2Win()
-    {
-        //Player 2 Horizontal Checks
-        if (Board.Position[6] == 'O' && Board.Position[7] == 'O' && Board.Position[8] == 'O')
-        {
-            return true;
-        }
-        else if (Board.Position[3] == 'O' && Board.Position[4] == 'O' && Board.Position[5] == 'O')
-        {
-            return true;
-        }
-        else if (Board.Position[0] == 'O' && Board.Position[1] == 'O' && Board.Position[2] == 'O')
-        {
-            return true;
-        }
-        //Player 2 Vertical Checks
-        else if (Board.Position[6] == 'O' && Board.Position[3] == 'O' && Board.Position[0] == 'O')
-        {
-            return true;
-        }
-        else if (Board.Position[7] == 'O' && Board.Position[4] == 'O' && Board.Position[1] == 'O')
-        {
-            return true;
-        }
-        else if (Board.Position[8] == 'O' && Board.Position[5] == 'O' && Board.Position[2] == 'O')
-        {
-            return true;
-        }
-        //Player 2 Diagnal Check
-        else if (Board.Position[6] == 'O' && Board.Position[4] == 'O' && Board.Position[2] == 'O')
-        {
-            return true;
-        }
-        else if (Board.Position[8] == 'O' && Board.Position[4] == 'O' && Board.Position[0] == 'O')
-        {
-            return true;
-        }
-        //Draw Check
-        else
-        {
-            Draw = true;
-            return false;
-        }
-    }
-
+    //checks array for claimed positions, breaks loop if it finds an unclaimed spot
+    //checks if array is full of claimed spots and sets draw to true
     public static bool IsDraw()
     {
         bool draw = false;
 
-        if (!DidPlayer1Win() && !DidPlayer2Win())
+        if (!DidPlayerWin('X') && !DidPlayerWin('O'))
         {
             foreach (bool status in Board.isPositionTaken)
             {
@@ -223,7 +195,6 @@ public static class Endgame
                 }
             }
         }
-
         else
         { 
             draw = false;

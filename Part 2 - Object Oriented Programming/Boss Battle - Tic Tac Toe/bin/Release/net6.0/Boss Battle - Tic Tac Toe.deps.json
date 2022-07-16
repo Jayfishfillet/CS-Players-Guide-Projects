@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Boss Battle - Tic Tac Toe/1.0.0": {
+        "runtime": {
+          "Boss Battle - Tic Tac Toe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Boss Battle - Tic Tac Toe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

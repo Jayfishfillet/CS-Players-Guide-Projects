@@ -6,11 +6,20 @@ game.Run();
 class TicTacToe
 {
     //Initializes 2 players
-    Player Player1 = new Player('X');
-    Player Player2 = new Player('O');
+    Player Player1;
+    Player Player2;
+    Board Board;
+
     bool isPlayer1Turn = true;
     private string player1Name;
     private string player2Name;
+
+    public TicTacToe()
+    { 
+        Player1 = new Player('X');
+        Player2 = new Player('O');
+        Board = new Board();
+    }
 
     public void Run()
     {
@@ -21,32 +30,30 @@ class TicTacToe
         Console.Write("Player 2, Type your name: ");
         player2Name = Console.ReadLine();
 
-        //Game loopm if player wins, print win message.
-        //If the game is a draw, print a message
-        //If a win/draw condition isnt met, keep going
+        //Game loops
         while (true)
         {
-            if (Endgame.DidPlayerWin('X'))
+            if (Endgame.DidPlayerWin('X', Board))
             {
-                Board.SetBoard();
+                Board.SetBoard(Board);
                 Console.WriteLine($"\n{player1Name} WINS!");
                 break;
             }
-            if (Endgame.DidPlayerWin('O'))
+            if (Endgame.DidPlayerWin('O', Board))
             {
-                Board.SetBoard();
+                Board.SetBoard(Board);
                 Console.WriteLine($"\n{player2Name} WINS!");
                 break;
             }
-            if (Endgame.IsDraw())
+            if (Endgame.IsDraw(Board))
             {
-                Board.SetBoard();
+                Board.SetBoard(Board);
                 Console.WriteLine("\nDRAW!");
                 break;
             }
             else
             {
-                Board.SetBoard();
+                Board.SetBoard(Board);
                 TurnManager();
             }
         }
@@ -56,12 +63,12 @@ class TicTacToe
     {
         if (isPlayer1Turn)
         {
-            Player1.GetPlayerSelection($"{player1Name}");
+            Player1.GetPlayerSelection($"{player1Name}", Board);
             isPlayer1Turn = false;
         }
         else
         {
-            Player2.GetPlayerSelection($"{player2Name}");
+            Player2.GetPlayerSelection($"{player2Name}", Board);
             isPlayer1Turn = true;
         }
     }
@@ -76,7 +83,7 @@ class Player
         PlayerSymbol = playerSymbol;
     }
 
-    public void GetPlayerSelection(string playername)
+    public void GetPlayerSelection(string playername, Board board)
     {
         Console.Write($"{playername}, Please select a position: ");
         int positionChoice = (Convert.ToInt32(Console.ReadLine()) - 1);
@@ -85,32 +92,32 @@ class Player
         if (positionChoice < 0 || positionChoice > 8)
         {
             Console.Write("Invalid Choice. ");
-            this.GetPlayerSelection(playername);
+            this.GetPlayerSelection(playername, board);
         }
         //Kicks back player if position is taken
-        else if (Board.isPositionTaken[positionChoice])
+        else if (board.isPositionTaken[positionChoice])
         {
             Console.Write("Position is taken. ");
-            this.GetPlayerSelection(playername);
+            this.GetPlayerSelection(playername, board);
         }
         //flags selected position to taken and marks position with player symbol
         else
         {
-            Board.isPositionTaken[positionChoice] = true;
-            Board.Position[positionChoice] = PlayerSymbol;
+            board.isPositionTaken[positionChoice] = true;
+            board.Position[positionChoice] = PlayerSymbol;
         }
     }
 }
 
-static class Board
+public class Board
 {
     //Position Statuses
-    public static bool[] isPositionTaken { get; set; } = new bool[9];
+    public bool[] isPositionTaken { get; set; } = new bool[9];
 
     //Position on board
-    public static char[] Position = new char[9] { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
+    public char[] Position = new char[9] { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
 
-    public static void SetBoard()
+    public void SetBoard(Board Board)
     {
         //clears and re-draws board
         Console.Clear();
@@ -119,70 +126,67 @@ static class Board
         Console.WriteLine($" {Position[3]} | {Position[4]} | {Position[5]} ");
         Console.WriteLine($"---+---+---");
         Console.WriteLine($" {Position[0]} | {Position[1]} | {Position[2]} ");
-        Endgame.DidPlayerWin('X');
-        Endgame.DidPlayerWin('O');
+        Endgame.DidPlayerWin('X', this);
+        Endgame.DidPlayerWin('O', this);
 
     }
 }
 
 public static class Endgame
 {
-    public static bool Draw { get; private set; }
-
     //Accepts a player symbol to check for win condition
-    public static bool DidPlayerWin(char playerIcon)
+    public static bool DidPlayerWin(char playerIcon, Board board)
     {
         //Horizontal Checks
-        if (Board.Position[6] == playerIcon && Board.Position[7] == playerIcon && Board.Position[8] == playerIcon)
+        if (board.Position[6] == playerIcon && board.Position[7] == playerIcon && board.Position[8] == playerIcon)
         {
             return true;
         }
-        else if (Board.Position[3] == playerIcon && Board.Position[4] == playerIcon && Board.Position[5] == playerIcon)
+        else if (board.Position[3] == playerIcon && board.Position[4] == playerIcon && board.Position[5] == playerIcon)
         {
             return true;
         }
-        else if (Board.Position[0] == playerIcon && Board.Position[1] == playerIcon && Board.Position[2] == playerIcon)
+        else if (board.Position[0] == playerIcon && board.Position[1] == playerIcon && board.Position[2] == playerIcon)
         {
             return true;
         }
-        //Player 1 Vertical Checks
-        else if (Board.Position[6] == playerIcon && Board.Position[3] == playerIcon && Board.Position[0] == playerIcon)
+        //Vertical Checks
+        else if (board.Position[6] == playerIcon && board.Position[3] == playerIcon && board.Position[0] == playerIcon)
         {
             return true;
         }
-        else if (Board.Position[7] == playerIcon && Board.Position[4] == playerIcon && Board.Position[1] == playerIcon)
+        else if (board.Position[7] == playerIcon && board.Position[4] == playerIcon && board.Position[1] == playerIcon)
         {
             return true;
         }
-        else if (Board.Position[8] == playerIcon && Board.Position[5] == playerIcon && Board.Position[2] == playerIcon)
+        else if (board.Position[8] == playerIcon && board.Position[5] == playerIcon && board.Position[2] == playerIcon)
         {
             return true;
         }
-        //Player 1 Diagnal Check
-        else if (Board.Position[6] == playerIcon && Board.Position[4] == playerIcon && Board.Position[2] == playerIcon)
+        //Diagnal Check
+        else if (board.Position[6] == playerIcon && board.Position[4] == playerIcon && board.Position[2] == playerIcon)
         {
             return true;
         }
-        else if (Board.Position[8] == playerIcon && Board.Position[4] == playerIcon && Board.Position[0] == playerIcon)
+        else if (board.Position[8] == playerIcon && board.Position[4] == playerIcon && board.Position[0] == playerIcon)
         {
             return true;
         }
         else
         {
-            Draw = true;
             return false;
         }
     }
 
     //checks array for claimed positions, breaks loop if it finds an unclaimed spot
     //checks if array is full of claimed spots and sets draw to true
-    public static bool IsDraw()
+    public static bool IsDraw(Board board)
     {
         bool draw = false;
 
-        if (!DidPlayerWin('X') && !DidPlayerWin('O'))
+        if (!DidPlayerWin('X', board) && !DidPlayerWin('O', board))
         {
-            foreach (bool status in Board.isPositionTaken)
+            foreach (bool status in board.isPositionTaken)
             {
                 if (!status)
                 {

@@ -20,17 +20,15 @@ while (true)
     InventoryItem addedItem = choice switch
     {
         "arrow" => new Arrow(),
-        "bow"   => new Bow(),
-        "rope"  => new Rope(),
+        "bow" => new Bow(),
+        "rope" => new Rope(),
         "water" => new Water(),
-        "food"  => new FoodRations(),
-        "sword" => new Sword()
-
+        "food" => new FoodRations(),
+        "sword" => new Sword(),
     };
     
     if (!AdventurerPack.Add(addedItem))
         Console.WriteLine("The pack is too full to add that right now.");
-
 }
 
 

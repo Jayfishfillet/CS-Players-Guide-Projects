@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\bin\Debug\net6.0\The Old Robot.exe
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\bin\Debug\net6.0\The Old Robot.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\bin\Debug\net6.0\The Old Robot.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\bin\Debug\net6.0\The Old Robot.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\bin\Debug\net6.0\The Old Robot.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\obj\Debug\net6.0\The Old Robot.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\obj\Debug\net6.0\The Old Robot.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\obj\Debug\net6.0\The Old Robot.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\obj\Debug\net6.0\The Old Robot.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\obj\Debug\net6.0\The Old Robot.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\obj\Debug\net6.0\The Old Robot.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\obj\Debug\net6.0\refint\The Old Robot.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\obj\Debug\net6.0\The Old Robot.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\obj\Debug\net6.0\The Old Robot.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\The Old Robot\obj\Debug\net6.0\ref\The Old Robot.dll

@@ -1,6 +1,6 @@
 ﻿Console.Title = "Room Coordinates";
 
-Coordinate room1 = new Coordinate(1, 2);
+Coordinate room1 = new Coordinate(2, 2);
 Coordinate room2 = new Coordinate(2, 3);
 Coordinate room3 = new Coordinate(3, 4);
 
@@ -24,11 +24,10 @@ struct Coordinate
 
     public bool isAdjecent(Coordinate room)
     {
-        bool isAdjecent;
-
-        isAdjecent = this.Row + 1 == room.Row  || this.Row - 1 == room.Row ? true : false;
-        isAdjecent = this.Column + 1 == room.Column || this.Column - 1 == room.Column ? true : false;
-
-        return isAdjecent;
+        if (room.Row > this.Row + 1) return false;
+        if (room.Row < this.Row - 1) return false;
+        if (room.Column > this.Column + 1) return false;
+        if (room.Column < this.Column - 1) return false;
+        return true;
     }
 }

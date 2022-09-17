@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\bin\Debug\net6.0\Room Coordinates.exe
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\bin\Debug\net6.0\Room Coordinates.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\bin\Debug\net6.0\Room Coordinates.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\bin\Debug\net6.0\Room Coordinates.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\bin\Debug\net6.0\Room Coordinates.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\obj\Debug\net6.0\Room Coordinates.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\obj\Debug\net6.0\Room Coordinates.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\obj\Debug\net6.0\Room Coordinates.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\obj\Debug\net6.0\Room Coordinates.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\obj\Debug\net6.0\Room Coordinates.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\obj\Debug\net6.0\Room Coordinates.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\obj\Debug\net6.0\refint\Room Coordinates.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\obj\Debug\net6.0\Room Coordinates.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\obj\Debug\net6.0\Room Coordinates.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Room Coordinates\obj\Debug\net6.0\ref\Room Coordinates.dll

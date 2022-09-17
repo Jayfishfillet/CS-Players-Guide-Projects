@@ -1,15 +1,12 @@
 ﻿Console.Title = "Room Coordinates";
 
-Coordinate room1 = new Coordinate(2, 2);
-Coordinate room2 = new Coordinate(2, 3);
-Coordinate room3 = new Coordinate(3, 4);
+Coordinate room1 = new Coordinate(1, 1);
+Coordinate room2 = new Coordinate(2, 2);
+Coordinate room3 = new Coordinate(2, 3);
 
-
-Console.WriteLine($"room1 is adjacent to room2: {room1.isAdjecent(room2)}");
-Console.WriteLine($"room2 is adjacent to room3: {room2.isAdjecent(room3)}");
-Console.WriteLine($"room3 is adjacent to room1: {room3.isAdjecent(room1)}");
-
-
+Console.WriteLine($"room1 is adjacent to room2: {room1.IsAdjacentTo(room2)}"); //should resolve to FALSE
+Console.WriteLine($"room2 is adjacent to room3: {room2.IsAdjacentTo(room3)}"); //should resolve to TRUE
+Console.WriteLine($"room3 is adjacent to room1: {room3.IsAdjacentTo(room1)}"); //should resolve to FALSE
 
 struct Coordinate
 {
@@ -22,12 +19,13 @@ struct Coordinate
         Column = column;
     }
 
-    public bool isAdjecent(Coordinate room)
+    public bool IsAdjacentTo(Coordinate room)
     {
-        if (room.Row > this.Row + 1) return false;
-        if (room.Row < this.Row - 1) return false;
-        if (room.Column > this.Column + 1) return false;
-        if (room.Column < this.Column - 1) return false;
-        return true;
+        bool isAdjacent = false;
+        bool isAdjacentOnRow = this.Row == room.Row && (this.Column -1 == room.Column || this.Column +1 == room.Column);
+        bool isAdjacentOnColumn = this.Column == room.Column && (this.Row - 1 == room.Row || this.Row + 1 == room.Row);
+
+        if (isAdjacentOnRow || isAdjacentOnColumn) isAdjacent = true;
+        return isAdjacent;
     }
 }

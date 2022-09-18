@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\bin\Debug\net6.0\War Preparations.exe
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\bin\Debug\net6.0\War Preparations.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\bin\Debug\net6.0\War Preparations.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\bin\Debug\net6.0\War Preparations.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\bin\Debug\net6.0\War Preparations.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\obj\Debug\net6.0\War Preparations.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\obj\Debug\net6.0\War Preparations.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\obj\Debug\net6.0\War Preparations.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\obj\Debug\net6.0\War Preparations.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\obj\Debug\net6.0\War Preparations.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\obj\Debug\net6.0\War Preparations.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\obj\Debug\net6.0\refint\War Preparations.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\obj\Debug\net6.0\War Preparations.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\obj\Debug\net6.0\War Preparations.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\War Preparations\obj\Debug\net6.0\ref\War Preparations.dll

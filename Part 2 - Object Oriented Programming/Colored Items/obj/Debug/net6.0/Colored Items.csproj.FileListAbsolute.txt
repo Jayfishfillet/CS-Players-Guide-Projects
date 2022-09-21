@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\bin\Debug\net6.0\Colored Items.exe
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\bin\Debug\net6.0\Colored Items.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\bin\Debug\net6.0\Colored Items.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\bin\Debug\net6.0\Colored Items.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\bin\Debug\net6.0\Colored Items.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\obj\Debug\net6.0\Colored Items.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\obj\Debug\net6.0\Colored Items.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\obj\Debug\net6.0\Colored Items.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\obj\Debug\net6.0\Colored Items.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\obj\Debug\net6.0\Colored Items.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\obj\Debug\net6.0\Colored Items.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\obj\Debug\net6.0\refint\Colored Items.dll
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\obj\Debug\net6.0\Colored Items.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\obj\Debug\net6.0\Colored Items.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Colored Items\obj\Debug\net6.0\ref\Colored Items.dll

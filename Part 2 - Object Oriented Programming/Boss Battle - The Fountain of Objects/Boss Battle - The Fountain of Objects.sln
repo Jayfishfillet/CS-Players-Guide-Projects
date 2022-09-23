@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boss Battle - The Fountain of Objects", "Boss Battle - The Fountain of Objects.csproj", "{52B02490-EFA6-4DAD-A9ED-592FCA00509D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B02490-EFA6-4DAD-A9ED-592FCA00509D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B02490-EFA6-4DAD-A9ED-592FCA00509D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B02490-EFA6-4DAD-A9ED-592FCA00509D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B02490-EFA6-4DAD-A9ED-592FCA00509D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E073E4F8-B973-4437-9613-76BEB80A6447}
+	EndGlobalSection
+EndGlobal

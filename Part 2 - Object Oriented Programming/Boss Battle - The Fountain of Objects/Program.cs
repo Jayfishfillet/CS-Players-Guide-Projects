@@ -1,8 +1,43 @@
 ﻿Console.Title = "The Fountain of Objects";
 
-FountainOfObjects game = new FountainOfObjects();
+int[] rowAndColum = new int[2];
+int[] fountainCoords = new int[2];
 
+levelpicker();
+
+FountainOfObjects game = new FountainOfObjects(rowAndColum[0], rowAndColum[1], fountainCoords[0], fountainCoords[1]);
+
+Console.Clear();
 game.Run();
+
+void levelpicker()
+{
+    Console.WriteLine("Would you like to play a small, medium, or large game?");
+    switch (Console.ReadLine()?.ToLower())
+    {
+        case "small":
+            rowAndColum[0] = 4;
+            rowAndColum[1] = 4;
+            fountainCoords[0] = 0;
+            fountainCoords[1] = 2;
+            break;
+        case "medium":
+            rowAndColum[0] = 6;
+            rowAndColum[1] = 6;
+            fountainCoords[0] = 3;
+            fountainCoords[1] = 4;
+            break;
+        case "large":
+            rowAndColum[0] = 8;
+            rowAndColum[1] = 8;
+            fountainCoords[0] = 5;
+            fountainCoords[1] = 5;
+            break;
+        default:
+            levelpicker();
+            break;
+    }
+}
 
 public class FountainOfObjects
 {
@@ -10,14 +45,14 @@ public class FountainOfObjects
     public Player Player { get; }
     public bool winState { get; set; } = false;
     public bool breakLoop { get; set; } = false;
-    public FountainOfObjects()
+    public FountainOfObjects(int maxRows, int maxColumns, int fountainRow, int fountainColumn)
     {
-        Map = new CavernBuilder(4, 4);
+        Map = new CavernBuilder(maxRows, maxColumns);
         Player = new Player(0, 0);
 
-        Map.CavernGrid[0, 2] = new FountainRoom();
+        Map.CavernGrid[fountainRow, fountainColumn].RoomType = RoomType.Fountain;
         Map.CavernGrid[0, 0].Player = Player;
-        Map.CavernGrid[0, 0] = new Entrance();
+        Map.CavernGrid[0, 0].RoomType = RoomType.Entrance;
     }
     public void Run()
     {
@@ -159,24 +194,12 @@ public class CavernBuilder
 public class Room
 {
     public Player? Player { get; set; } = null;
-    public RoomType RoomType { get; }
+    public RoomType RoomType { get; set; }
 
     public Room(Player? person, RoomType roomtype)
     {
         Player = person;
         RoomType = roomtype;
-    }
-}
-public class FountainRoom : Room
-{
-    public FountainRoom() : base(null, RoomType.Fountain)
-    {
-    }
-}
-public class Entrance : Room
-{
-    public Entrance() : base(null, RoomType.Entrance)
-    {
     }
 }
 
@@ -211,4 +234,4 @@ public class Player
     }
 }
 
-public enum RoomType { Empty, Fountain, Entrance }
+public enum RoomType { Empty, Fountain, Entrance, Pit }

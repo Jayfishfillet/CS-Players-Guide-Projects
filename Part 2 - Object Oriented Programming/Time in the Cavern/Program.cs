@@ -1,4 +1,4 @@
-﻿Console.Title = "The Fountain of Objects";
+﻿Console.Title = "The Fountain of Objects + Time in the Cavern";
 
 Console.WriteLine("Welcome to the Fountain of Objects game.\n");
 Console.WriteLine("You enter the Cavern of Objects, a dangerous maze in search of the Fountain of Objects.");

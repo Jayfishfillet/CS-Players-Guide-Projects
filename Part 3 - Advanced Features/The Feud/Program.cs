@@ -4,6 +4,8 @@ using McDroid;
 using IFieldPig = IField.Pig;
 using McDroidPig = McDroid.Pig;
 
+Console.Title = "The Feud";
+
 
 //IField Animals
 Sheep _IFieldSheep = new Sheep();

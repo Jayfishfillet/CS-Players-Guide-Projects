@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\bin\Debug\net6.0\Better Random.exe
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\bin\Debug\net6.0\Better Random.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\bin\Debug\net6.0\Better Random.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\bin\Debug\net6.0\Better Random.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\bin\Debug\net6.0\Better Random.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\obj\Debug\net6.0\Better Random.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\obj\Debug\net6.0\Better Random.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\obj\Debug\net6.0\Better Random.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\obj\Debug\net6.0\Better Random.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\obj\Debug\net6.0\Better Random.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\obj\Debug\net6.0\Better Random.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\obj\Debug\net6.0\refint\Better Random.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\obj\Debug\net6.0\Better Random.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\obj\Debug\net6.0\Better Random.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Better Random\obj\Debug\net6.0\ref\Better Random.dll

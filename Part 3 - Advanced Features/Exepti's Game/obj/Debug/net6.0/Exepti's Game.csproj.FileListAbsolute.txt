@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\bin\Debug\net6.0\Exepti's Game.exe
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\bin\Debug\net6.0\Exepti's Game.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\bin\Debug\net6.0\Exepti's Game.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\bin\Debug\net6.0\Exepti's Game.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\bin\Debug\net6.0\Exepti's Game.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\obj\Debug\net6.0\Exepti's Game.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\obj\Debug\net6.0\Exepti's Game.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\obj\Debug\net6.0\Exepti's Game.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\obj\Debug\net6.0\Exepti's Game.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\obj\Debug\net6.0\Exepti's Game.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\obj\Debug\net6.0\Exepti's Game.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\obj\Debug\net6.0\refint\Exepti's Game.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\obj\Debug\net6.0\Exepti's Game.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\obj\Debug\net6.0\Exepti's Game.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Exepti's Game\obj\Debug\net6.0\ref\Exepti's Game.dll

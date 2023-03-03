@@ -4,37 +4,22 @@ Sieve? sieve = null;
 bool validInput = false;
 
 Console.Write("[Numeromechanical Sieve Operational]\nSelect a filter:\n\n1. Even Number filter\n2. Positive Number Filter\n3. Multiples of 10 Filter\n");
-while (!validInput) 
+while (!validInput)
 {
     string? input = Console.ReadLine();
 
-    if (int.TryParse(input, out int selection))
+    (validInput, sieve) = input switch
     {
-        switch (selection)
-        {
-            case 1:
-                sieve = new Sieve(IsEven);
-                validInput = true;
-                break;
-            case 2:
-                sieve = new Sieve(IsPositive);
-                validInput = true;
-                break;
-            case 3:
-                sieve = new Sieve(IsMultipleOfTen);
-                validInput = true;
-                break;
-            default:
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Invalid input. Make another selection. ");
-                Console.ForegroundColor = ConsoleColor.Gray;
-                break;
-        }
-    }
-    else
+        "1" => (true, new Sieve(IsEven)),
+        "2" => (true, new Sieve(IsPositive)),
+        "3" => (true, new Sieve(IsMultipleOfTen)),
+        _ => (false, null)
+    };
+
+    if (!validInput)
     {
         Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("Invalid input. Make another selection. ");
+        Console.WriteLine("Invalid input. Make another selection.");
         Console.ForegroundColor = ConsoleColor.Gray;
     }
 }
@@ -61,9 +46,9 @@ bool IsMultipleOfTen(int number)
 
 class Sieve
 {
-    private Func<int, bool> SieveFilter;
+    private Func<int, bool> sieveFilter;
 
-    public Sieve(Func<int, bool> sieveFilter) => SieveFilter = sieveFilter;
+    public Sieve(Func<int, bool> sieveFilter) => this.sieveFilter = sieveFilter;
 
     public void GetNumbers()
     {
@@ -80,7 +65,6 @@ class Sieve
 
     public bool IsGood(int number)
     {
-        return SieveFilter(number);
+        return sieveFilter(number);
     }
-
 }

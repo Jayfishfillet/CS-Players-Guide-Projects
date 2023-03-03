@@ -49,7 +49,7 @@ bool IsEven(int number)
 
 bool IsPositive(int number)
 {
-    if (number > 0) return true;
+    if (number > -1) return true;
     else return false;
 }
 

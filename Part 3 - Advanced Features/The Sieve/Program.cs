@@ -1,6 +1,5 @@
 ﻿Console.Title = "the Sieve";
 
-SieveDelegate? sieveFilter;
 Sieve? sieve = null;
 bool validInput = false;
 
@@ -14,18 +13,15 @@ while (!validInput)
         switch (selection)
         {
             case 1:
-                sieveFilter = IsEven;
-                sieve = new Sieve(sieveFilter);
+                sieve = new Sieve(IsEven);
                 validInput = true;
                 break;
             case 2:
-                sieveFilter = IsPositive;
-                sieve = new Sieve(sieveFilter);
+                sieve = new Sieve(IsPositive);
                 validInput = true;
                 break;
             case 3:
-                sieveFilter = IsMultipleOfTen;
-                sieve = new Sieve(sieveFilter);
+                sieve = new Sieve(IsMultipleOfTen);
                 validInput = true;
                 break;
             default:
@@ -65,12 +61,9 @@ bool IsMultipleOfTen(int number)
 
 class Sieve
 {
-    private SieveDelegate SieveFilter;
+    private Func<int, bool> SieveFilter;
 
-    public Sieve(SieveDelegate sieveFilter)
-    {
-        SieveFilter = sieveFilter;
-    }
+    public Sieve(Func<int, bool> sieveFilter) => SieveFilter = sieveFilter;
 
     public void GetNumbers()
     {
@@ -81,10 +74,7 @@ class Sieve
             {
                 Console.WriteLine($"Is good: {IsGood(choice)}\n");
             }
-            else
-            {
-                Console.WriteLine("Invalid selection. Try again.");
-            }
+            else Console.WriteLine("Invalid selection. Try again.");
         }
     }
 
@@ -94,5 +84,3 @@ class Sieve
     }
 
 }
-
-public delegate bool SieveDelegate(int number);

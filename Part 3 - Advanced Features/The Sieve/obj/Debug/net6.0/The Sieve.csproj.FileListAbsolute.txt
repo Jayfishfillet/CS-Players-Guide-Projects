@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\bin\Debug\net6.0\The Sieve.exe
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\bin\Debug\net6.0\The Sieve.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\bin\Debug\net6.0\The Sieve.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\bin\Debug\net6.0\The Sieve.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\bin\Debug\net6.0\The Sieve.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\obj\Debug\net6.0\The Sieve.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\obj\Debug\net6.0\The Sieve.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\obj\Debug\net6.0\The Sieve.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\obj\Debug\net6.0\The Sieve.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\obj\Debug\net6.0\The Sieve.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\obj\Debug\net6.0\The Sieve.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\obj\Debug\net6.0\refint\The Sieve.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\obj\Debug\net6.0\The Sieve.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\obj\Debug\net6.0\The Sieve.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Sieve\obj\Debug\net6.0\ref\The Sieve.dll

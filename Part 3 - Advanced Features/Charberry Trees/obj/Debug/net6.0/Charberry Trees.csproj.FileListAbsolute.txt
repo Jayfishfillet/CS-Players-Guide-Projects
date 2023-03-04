@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\bin\Debug\net6.0\Charberry Trees.exe
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\bin\Debug\net6.0\Charberry Trees.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\bin\Debug\net6.0\Charberry Trees.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\bin\Debug\net6.0\Charberry Trees.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\bin\Debug\net6.0\Charberry Trees.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\obj\Debug\net6.0\Charberry Trees.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\obj\Debug\net6.0\Charberry Trees.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\obj\Debug\net6.0\Charberry Trees.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\obj\Debug\net6.0\Charberry Trees.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\obj\Debug\net6.0\Charberry Trees.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\obj\Debug\net6.0\Charberry Trees.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\obj\Debug\net6.0\refint\Charberry Trees.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\obj\Debug\net6.0\Charberry Trees.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\obj\Debug\net6.0\Charberry Trees.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Charberry Trees\obj\Debug\net6.0\ref\Charberry Trees.dll

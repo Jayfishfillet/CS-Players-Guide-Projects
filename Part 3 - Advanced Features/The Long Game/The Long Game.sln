@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Long Game", "The Long Game.csproj", "{58AA0BE6-8484-4792-8271-E15BC393CEE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58AA0BE6-8484-4792-8271-E15BC393CEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AA0BE6-8484-4792-8271-E15BC393CEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AA0BE6-8484-4792-8271-E15BC393CEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AA0BE6-8484-4792-8271-E15BC393CEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1A5B1E8-A00C-470C-B5EC-3DC3164072FB}
+	EndGlobalSection
+EndGlobal

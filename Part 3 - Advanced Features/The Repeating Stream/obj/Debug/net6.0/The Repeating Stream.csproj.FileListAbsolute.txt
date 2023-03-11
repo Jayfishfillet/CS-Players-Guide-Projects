@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\bin\Debug\net6.0\The Repeating Stream.exe
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\bin\Debug\net6.0\The Repeating Stream.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\bin\Debug\net6.0\The Repeating Stream.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\bin\Debug\net6.0\The Repeating Stream.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\bin\Debug\net6.0\The Repeating Stream.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\obj\Debug\net6.0\The Repeating Stream.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\obj\Debug\net6.0\The Repeating Stream.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\obj\Debug\net6.0\The Repeating Stream.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\obj\Debug\net6.0\The Repeating Stream.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\obj\Debug\net6.0\The Repeating Stream.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\obj\Debug\net6.0\The Repeating Stream.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\obj\Debug\net6.0\refint\The Repeating Stream.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\obj\Debug\net6.0\The Repeating Stream.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\obj\Debug\net6.0\The Repeating Stream.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\The Repeating Stream\obj\Debug\net6.0\ref\The Repeating Stream.dll

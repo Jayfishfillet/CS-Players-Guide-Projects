@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\bin\Debug\net6.0\Many Random Words.exe
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\bin\Debug\net6.0\Many Random Words.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\bin\Debug\net6.0\Many Random Words.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\bin\Debug\net6.0\Many Random Words.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\bin\Debug\net6.0\Many Random Words.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\obj\Debug\net6.0\Many Random Words.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\obj\Debug\net6.0\Many Random Words.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\obj\Debug\net6.0\Many Random Words.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\obj\Debug\net6.0\Many Random Words.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\obj\Debug\net6.0\Many Random Words.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\obj\Debug\net6.0\Many Random Words.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\obj\Debug\net6.0\refint\Many Random Words.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\obj\Debug\net6.0\Many Random Words.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\obj\Debug\net6.0\Many Random Words.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Many Random Words\obj\Debug\net6.0\ref\Many Random Words.dll

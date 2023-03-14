@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\bin\Debug\net6.0\Uniter of Adds.exe
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\bin\Debug\net6.0\Uniter of Adds.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\bin\Debug\net6.0\Uniter of Adds.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\bin\Debug\net6.0\Uniter of Adds.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\bin\Debug\net6.0\Uniter of Adds.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\obj\Debug\net6.0\Uniter of Adds.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\obj\Debug\net6.0\Uniter of Adds.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\obj\Debug\net6.0\Uniter of Adds.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\obj\Debug\net6.0\Uniter of Adds.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\obj\Debug\net6.0\Uniter of Adds.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\obj\Debug\net6.0\Uniter of Adds.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\obj\Debug\net6.0\refint\Uniter of Adds.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\obj\Debug\net6.0\Uniter of Adds.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\obj\Debug\net6.0\Uniter of Adds.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Uniter of Adds\obj\Debug\net6.0\ref\Uniter of Adds.dll

@@ -1,0 +1,2 @@
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\bin\Release\net6.0\publish\win-x64\Altar of Publication.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\bin\Release\net6.0\publish\win-x64\Altar of Publication.exe

@@ -1,0 +1,15 @@
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\bin\Release\net6.0\Altar of Publication.exe
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\bin\Release\net6.0\Altar of Publication.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\bin\Release\net6.0\Altar of Publication.runtimeconfig.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\bin\Release\net6.0\Altar of Publication.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\bin\Release\net6.0\Altar of Publication.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\obj\Release\net6.0\Altar of Publication.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\obj\Release\net6.0\Altar of Publication.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\obj\Release\net6.0\Altar of Publication.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\obj\Release\net6.0\Altar of Publication.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\obj\Release\net6.0\Altar of Publication.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\obj\Release\net6.0\Altar of Publication.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\obj\Release\net6.0\refint\Altar of Publication.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\obj\Release\net6.0\Altar of Publication.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\obj\Release\net6.0\Altar of Publication.genruntimeconfig.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Altar of Publication\obj\Release\net6.0\ref\Altar of Publication.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Colored Console/1.0.0": {
+        "dependencies": {
+          "ColoredConsoleLib": "1.0.0"
+        },
+        "runtime": {
+          "Colored Console.dll": {}
+        }
+      },
+      "ColoredConsoleLib/1.0.0": {
+        "runtime": {
+          "ColoredConsoleLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Colored Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ColoredConsoleLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

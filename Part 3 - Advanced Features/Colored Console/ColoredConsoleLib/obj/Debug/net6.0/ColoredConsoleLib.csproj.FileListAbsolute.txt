@@ -1,0 +1,12 @@
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\bin\Debug\net6.0\ColoredConsoleLib.deps.json
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\bin\Debug\net6.0\ColoredConsoleLib.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\bin\Debug\net6.0\ColoredConsoleLib.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\obj\Debug\net6.0\ColoredConsoleLib.csproj.AssemblyReference.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\obj\Debug\net6.0\ColoredConsoleLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\obj\Debug\net6.0\ColoredConsoleLib.AssemblyInfoInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\obj\Debug\net6.0\ColoredConsoleLib.AssemblyInfo.cs
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\obj\Debug\net6.0\ColoredConsoleLib.csproj.CoreCompileInputs.cache
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\obj\Debug\net6.0\ColoredConsoleLib.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\obj\Debug\net6.0\refint\ColoredConsoleLib.dll
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\obj\Debug\net6.0\ColoredConsoleLib.pdb
+E:\Repos\CS-Players-Guide-Projects\Part 3 - Advanced Features\Colored Console\ColoredConsoleLib\obj\Debug\net6.0\ref\ColoredConsoleLib.dll

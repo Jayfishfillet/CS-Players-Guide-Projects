@@ -1,39 +1,39 @@
-﻿namespace EndGame.CharacterUnits;
+﻿using EndGame.ActionManagement;
 
-class CharacterUnit
+namespace EndGame.CharacterUnits;
+
+public class CharacterUnit
 {
     //Unit stats
     public string Name { get; init; }
     public byte HP { get; set; }
 
     //Unit Information
-    protected Party unitParty;
-    protected enum Party { Hero, Monster }
-    public List<Action> Actions { get; init; }
+    public List<Action<CharacterUnit>> Actions { get; init; }
 
-    public CharacterUnit(string name, List<Action> unitActions)
+    public CharacterUnit(string name, ActionManager actionManager)
     {
         Name = name;
-        Actions = unitActions;
+        Actions = actionManager.actionList;
     }
 
-    public void PerformAction(int index)
+    public void PerformAction(int index, CharacterUnit target)
     {
         Console.Write(Name + " ");
-        Actions[index].Invoke();
+        Actions[index].Invoke(target);
     }
 }
 
 class Enemy : CharacterUnit
 {
-    public Enemy(string name, List<Action> unitActions) : base(name, unitActions)
+    public Enemy(string name, ActionManager actionManager) : base(name, actionManager)
     {
     }
 }
 
 class Hero : CharacterUnit
 {
-    public Hero(string name, List<Action> unitActions) : base(name, unitActions)
+    public Hero(string name, ActionManager actionManager) : base(name, actionManager)
     {
     }
 }

@@ -1,27 +1,22 @@
-﻿namespace EndGame.UnitActions;
+﻿using EndGame.CharacterUnits;
+
+namespace EndGame.UnitActions;
 
 public static class UnitActions
 {
-    public static List<Action> BasicActions = new List<Action>();
-    static UnitActions()
+    public static void DoNothing(CharacterUnit target)
     {
-        BasicActions.Add(DoNothing);
-        BasicActions.Add(Cheer);
-        BasicActions.Add(Stare);
-    }
-    public static void DoNothing()
-    {
-        Console.WriteLine("did nothing...");
+        Console.WriteLine("did NOTHING...");
         Console.WriteLine();
     }
-    public static void Cheer()
+    public static void Punch(CharacterUnit target)
     {
-        Console.WriteLine("raised their hands up and shouted!");
+        Console.WriteLine($"used PUNCH on {target.Name}");
         Console.WriteLine();
     }
-    public static void Stare()
+    public static void BoneCrunch(CharacterUnit target)
     {
-        Console.WriteLine("stared off into space.");
+        Console.WriteLine($"used BONE CRUNCH on {target.Name}");
         Console.WriteLine();
     }
 }

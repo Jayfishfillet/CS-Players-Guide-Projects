@@ -1,6 +1,7 @@
 ﻿using EndGame.Battle;
 using EndGame.CharacterUnits;
 using EndGame.UnitActions;
+using EndGame.ActionManagement;
 
 Console.Title = "Endgame: Building Character";
 
@@ -9,13 +10,13 @@ string? name = Console.ReadLine();
 
 #region Hero Party
 List<Hero> heroParty = new List<Hero>();
-Hero trueProgrammer = new Hero(name, UnitActions.BasicActions);
+Hero trueProgrammer = new Hero(name, new ActionManager(UnitActions.Punch));
 heroParty.Add(trueProgrammer);
 #endregion
 
 #region EnemyParty
 List<Enemy> enemyParty = new List<Enemy>();
-Enemy skeleton = new Enemy("Skeleton", UnitActions.BasicActions);
+Enemy skeleton = new Enemy("Skeleton", new ActionManager(UnitActions.BoneCrunch));
 enemyParty.Add(skeleton);
 #endregion
 

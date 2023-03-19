@@ -1,4 +1,5 @@
 ﻿using EndGame.ActionManagement;
+using System.Reflection.PortableExecutable;
 
 namespace EndGame.CharacterUnits;
 
@@ -6,15 +7,19 @@ public class CharacterUnit
 {
     //Unit stats
     public string Name { get; init; }
-    public byte HP { get; set; }
+    public int MaxHP { get; init; }
+    public int CurrentHP { get; set; }
+    public bool isAlive { get; set; } = true;
+
 
     //Unit Information
     public List<Action<CharacterUnit>> Actions { get; init; }
 
-    public CharacterUnit(string name, ActionManager actionManager)
+    public CharacterUnit(string name, ActionManager actionManager, int maxHP)
     {
         Name = name;
         Actions = actionManager.actionList;
+        CurrentHP = MaxHP = maxHP;
     }
 
     public void PerformAction(int index, CharacterUnit target)
@@ -26,14 +31,14 @@ public class CharacterUnit
 
 class Enemy : CharacterUnit
 {
-    public Enemy(string name, ActionManager actionManager) : base(name, actionManager)
+    public Enemy(string name, ActionManager actionManager, int maxHP) : base(name, actionManager, maxHP)
     {
     }
 }
 
 class Hero : CharacterUnit
 {
-    public Hero(string name, ActionManager actionManager) : base(name, actionManager)
+    public Hero(string name, ActionManager actionManager, int maxHP) : base(name, actionManager, maxHP)
     {
     }
 }

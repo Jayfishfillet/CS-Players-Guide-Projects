@@ -1,5 +1,4 @@
 ﻿using EndGame.CharacterUnits;
-
 namespace EndGame.ActionManagement;
 
 public class ActionManager

@@ -8,28 +8,32 @@ public static class UnitActions
     {
         int damage = 3;
         Console.WriteLine($"used PUNCH on {target.Name}");
-        if (target.CurrentHP > 0)
-        {
-            Console.WriteLine($"PUNCH did {damage} damage!");
-            target.CurrentHP -= damage;
-        }
-        else Console.WriteLine("PUNCH did no damage");
-        Console.WriteLine($"{target.Name} has {HPClamper(target.CurrentHP)}/{target.MaxHP}");
-        DeathCheck(target);
-        Console.WriteLine();
+
+        Console.WriteLine($"PUNCH did {damage} damage!");
+        target.CurrentHP -= damage;
+
+        AttackMessaging(target);
     }
     public static void BoneCrunch(CharacterUnit target)
     {
+        int damage = new Random().Next(2);
         Console.WriteLine($"used BONE CRUNCH on {target.Name}");
-        if (target.CurrentHP > 0)
-        {
-            int damageRoll = new Random().Next(2);
-            Console.WriteLine($"BONE CRUNCH did {damageRoll} damage!");
-            target.CurrentHP -= damageRoll;
-        }
-        else Console.WriteLine("BONE CRUNCH did no damage");
-        Console.WriteLine($"{target.Name} has {HPClamper(target.CurrentHP)}/{target.MaxHP}");
-        Console.WriteLine();
+
+        Console.WriteLine($"BONE CRUNCH did {damage} damage!");
+        target.CurrentHP -= damage;
+
+        AttackMessaging(target);
+    }
+
+    public static void Unraveling(CharacterUnit target)
+    {
+        int damage = new Random().Next(5);
+        Console.WriteLine($"used UNRAVELING on {target.Name}");
+
+        Console.WriteLine($"UNRAVELING did {damage} damage!");
+        target.CurrentHP -= damage;
+
+        AttackMessaging(target);
     }
 
     private static void DeathCheck(CharacterUnit target)
@@ -44,5 +48,12 @@ public static class UnitActions
     private static int HPClamper(int hP)
     {
         return Math.Clamp(hP, 0, 100);
+    }
+
+    private static void AttackMessaging(CharacterUnit target)
+    {
+        Console.WriteLine($"{target.Name} has {HPClamper(target.CurrentHP)}/{target.MaxHP} HP");
+        DeathCheck(target);
+        Console.WriteLine();
     }
 }

@@ -1,21 +1,21 @@
 ﻿using EndGame.CharacterUnits;
-using System.Data.Common;
-
 namespace EndGame.Battle;
 
 class Battle
 {
     int round = 1;
     bool battleOver = false;
+    private int battleNumber;
 
     Random random = new();
     private List<CharacterUnit> heroParty = new();
     private List<CharacterUnit> enemyParty = new();
 
-    public Battle(List<CharacterUnit> heroParty, List<CharacterUnit> enemyParty)
+    public Battle(List<CharacterUnit> heroParty, List<CharacterUnit> enemyParty, int battleNumber)
     {
         this.heroParty = heroParty;
         this.enemyParty = enemyParty;
+        this.battleNumber = battleNumber;
     }
 
     public void BeginBattle()
@@ -27,7 +27,7 @@ class Battle
             PartyChecker(enemyParty, "Enemy Party");
             if (!battleOver)
             {
-                Console.WriteLine($"==========Round: {round}==========\n");
+                Console.WriteLine($"======= Battle: {battleNumber} | Round: {round} =======\n");
                 TurnManager();
                 round++;
             }
@@ -41,7 +41,8 @@ class Battle
                 {
                     Console.WriteLine($"It is {hero.Name}'s turn...\n");
                     Thread.Sleep(500);
-                    hero.PerformAction(random.Next(hero.Actions.Count), enemyParty[random.Next(enemyParty.Count)]);
+                    var randomAliveUnit = enemyParty.Where(e => e.isAlive).ToList();
+                    hero.PerformAction(random.Next(hero.Actions.Count), randomAliveUnit[random.Next(randomAliveUnit.Count)]);
                     Thread.Sleep(2000);
                 }
             }
@@ -51,7 +52,8 @@ class Battle
                 {
                     Console.WriteLine($"It is {enemy.Name}'s turn...\n");
                     Thread.Sleep(500);
-                    enemy.PerformAction(random.Next(enemy.Actions.Count), heroParty[random.Next(heroParty.Count)]);
+                    var randomAliveUnit = heroParty.Where(e => e.isAlive).ToList();
+                    enemy.PerformAction(random.Next(enemy.Actions.Count), randomAliveUnit[random.Next(randomAliveUnit.Count)]);
                     Thread.Sleep(2000);
                 }
             }
@@ -63,6 +65,8 @@ class Battle
             {
                 battleOver = true;
                 Console.WriteLine($"{partyName} has been defeated.");
+                Console.WriteLine("Press any key to continue.");
+                Console.ReadKey(true);
             }
         }
     }

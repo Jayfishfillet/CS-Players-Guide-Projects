@@ -1,6 +1,4 @@
 ﻿using EndGame.ActionManagement;
-using System.Reflection.PortableExecutable;
-
 namespace EndGame.CharacterUnits;
 
 public class CharacterUnit

@@ -1,0 +1,21 @@
+Completed:
+Core Game: Building Character
+Core Game: The True Programmer
+Core Game: Actions and Players
+Core Game: Attacks
+Core Game: Damage and HP
+Core Game: Death
+Core Game: Battle Series
+Core Game The Uncoded One
+
+To Do:
+Core Game: The Player Decides
+Expansion: The Game’s Status
+Expansion: Items
+Expansion: Gear
+Expansion: Stolen Inventory
+Expansion: Vin Fletcher
+Expansion: Attack Modifiers
+Expansion: Damage Types
+Expansion: Making it Yours
+Expansion: Restoring Balance

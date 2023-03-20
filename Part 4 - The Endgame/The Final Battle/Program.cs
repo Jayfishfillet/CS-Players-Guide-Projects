@@ -2,16 +2,13 @@
 using EndGame.CharacterUnits;
 using EndGame.UnitActions;
 using EndGame.ActionManagement;
-using System.IO;
 
-
-Console.Title = "Endgame: Building Character";
+Console.Title = "The Final Battle";
 
 Console.Write("True Programmer! What is your name? ");
 string? name = Console.ReadLine();
 
 #region Hero Party
-byte battleCompleted = 0;
 List<CharacterUnit> heroParty = new();
 Hero trueProgrammer = new Hero(name ?? "Hero", new ActionManager(UnitActions.Punch), 25);
 heroParty.Add(trueProgrammer);
@@ -19,46 +16,22 @@ heroParty.Add(trueProgrammer);
 
 #region Enemy setup
 List<CharacterUnit> enemyParty = new();
-
 Enemy skeleton  = new Enemy("Skeleton", new ActionManager(UnitActions.BoneCrunch), 5);
 Enemy skeleton2 = new Enemy("Skeleton", new ActionManager(UnitActions.BoneCrunch), 5);
 Enemy skeleton3 = new Enemy("Skeleton", new ActionManager(UnitActions.BoneCrunch), 5);
 Enemy Uncoded   = new Enemy("The Uncoded One", new ActionManager(UnitActions.Unraveling), 15);
-enemyParty.Add(skeleton);
 #endregion
 
-//First Battle
-Battle firstBattle = new(heroParty, enemyParty, 1);
-firstBattle.BeginBattle();
-enemyParty.Clear();
-battleCompleted = 1;
+Battle battle = new(heroParty, null, 0);
 
-//Second Battle
-if (heroParty.Any(p => p.isAlive == true) && battleCompleted == 1)
+ExecuteBattle(heroParty, enemyParty, battle, 1, skeleton);
+ExecuteBattle(heroParty, enemyParty, battle, 2, skeleton2, skeleton3);
+ExecuteBattle(heroParty, enemyParty, battle, 3, Uncoded);
+
+void ExecuteBattle(List<CharacterUnit> heroParty, List<CharacterUnit> enemyParty, Battle battle, int battleNumber, params CharacterUnit[] enemies)
 {
-    Battle secondBattle = new(heroParty, enemyParty, 2);
-    enemyParty.Add(skeleton2);
-    enemyParty.Add(skeleton3);
-    secondBattle.BeginBattle();
+    foreach (CharacterUnit u in enemies) { enemyParty.Add(u);}
+    battle = new(heroParty, enemyParty, battleNumber);
+    battle.BeginBattle();
     enemyParty.Clear();
-    battleCompleted = 2;
-}
-
-//Third Battle
-if (heroParty.Any(p => p.isAlive == true) && battleCompleted == 2)
-{
-    Battle ThirdBattle = new(heroParty, enemyParty, 3);
-    enemyParty.Add(Uncoded);
-    ThirdBattle.BeginBattle();
-    enemyParty.Clear();
-    battleCompleted = 3;
-}
-
-if (heroParty.Any(p => p.isAlive == true) && battleCompleted == 3)
-{
-    Console.WriteLine("\nThe smoky form of the Uncoded One disintegrates, binary streams flowing out of it until it bursts apart in a dazzling blue light. You have done it. You have defeated the Uncoded One");
-}
-else
-{
-    Console.WriteLine("\nYour party has been defeated by The Uncoded One and his army. Game Over.");
 }

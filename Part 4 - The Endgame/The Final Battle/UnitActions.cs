@@ -1,5 +1,4 @@
 ﻿using EndGame.CharacterUnits;
-
 namespace EndGame.UnitActions;
 
 public static class UnitActions
@@ -7,7 +6,7 @@ public static class UnitActions
     public static void Punch(CharacterUnit target)
     {
         int damage = 3;
-        Console.WriteLine($"used PUNCH on {target.Name}");
+        Console.WriteLine($"used PUNCH on {target.Name}...");
 
         Console.WriteLine($"PUNCH did {damage} damage!");
         target.CurrentHP -= damage;
@@ -17,7 +16,7 @@ public static class UnitActions
     public static void BoneCrunch(CharacterUnit target)
     {
         int damage = new Random().Next(2);
-        Console.WriteLine($"used BONE CRUNCH on {target.Name}");
+        Console.WriteLine($"used BONE CRUNCH on {target.Name}...");
 
         Console.WriteLine($"BONE CRUNCH did {damage} damage!");
         target.CurrentHP -= damage;
@@ -28,7 +27,7 @@ public static class UnitActions
     public static void Unraveling(CharacterUnit target)
     {
         int damage = new Random().Next(5);
-        Console.WriteLine($"used UNRAVELING on {target.Name}");
+        Console.WriteLine($"used UNRAVELING on {target.Name}...");
 
         Console.WriteLine($"UNRAVELING did {damage} damage!");
         target.CurrentHP -= damage;

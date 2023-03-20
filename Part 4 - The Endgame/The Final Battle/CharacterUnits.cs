@@ -8,9 +8,6 @@ public class CharacterUnit
     public int MaxHP { get; init; }
     public int CurrentHP { get; set; }
     public bool isAlive { get; set; } = true;
-
-
-    //Unit Information
     public List<Action<CharacterUnit>> Actions { get; init; }
 
     public CharacterUnit(string name, ActionManager actionManager, int maxHP)

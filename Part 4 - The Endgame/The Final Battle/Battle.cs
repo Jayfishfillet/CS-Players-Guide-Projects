@@ -6,7 +6,6 @@ class Battle
     int round = 1;
     bool battleOver = false;
     private int battleNumber;
-
     Random random = new();
     private List<CharacterUnit> heroParty = new();
     private List<CharacterUnit> enemyParty = new();
@@ -70,4 +69,3 @@ class Battle
             }
         }
     }
-}

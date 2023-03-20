@@ -1,5 +1,0 @@
-E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Tic Tac Toe\bin\Release\net6.0\publish\Boss Battle - Tic Tac Toe.exe
-E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Tic Tac Toe\bin\Release\net6.0\publish\Boss Battle - Tic Tac Toe.dll
-E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Tic Tac Toe\bin\Release\net6.0\publish\Boss Battle - Tic Tac Toe.deps.json
-E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Tic Tac Toe\bin\Release\net6.0\publish\Boss Battle - Tic Tac Toe.runtimeconfig.json
-E:\Repos\CS-Players-Guide-Projects\Part 2 - Object Oriented Programming\Boss Battle - Tic Tac Toe\bin\Release\net6.0\publish\Boss Battle - Tic Tac Toe.pdb

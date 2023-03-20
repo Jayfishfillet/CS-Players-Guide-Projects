@@ -1,1 +1,0 @@
-This folder contains all challenges, and Knowledge checks for Part 1.

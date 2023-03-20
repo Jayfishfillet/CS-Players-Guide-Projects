@@ -22,15 +22,11 @@ int GetManticorePosition(string text, int min, int max)
         Console.WriteLine("That value is out of range, pick another number");
         number = Convert.ToInt32(Console.ReadLine());
     }
+    Console.Clear();
     return number;
-
 }
 
-//Clear console after getting Manticores position
-Console.Clear();
-
 //Battle Loop
-
 do
 {
     RoundStatus();

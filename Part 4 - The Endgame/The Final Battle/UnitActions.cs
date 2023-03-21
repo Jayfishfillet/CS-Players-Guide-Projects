@@ -3,9 +3,14 @@ namespace EndGame.UnitActions;
 
 public static class UnitActions
 {
+    public static void DoNothing(CharacterUnit target)
+    {
+        Console.WriteLine("DID NOTHING.");
+        Console.WriteLine();
+    }
     public static void Punch(CharacterUnit target)
     {
-        int damage = 3;
+        int damage = 5;
         Console.WriteLine($"used PUNCH on {target.Name}...");
 
         Console.WriteLine($"PUNCH did {damage} damage!");
@@ -44,6 +49,7 @@ public static class UnitActions
         }
     }
 
+    //Helper methods
     private static int HPClamper(int hP)
     {
         return Math.Clamp(hP, 0, 100);

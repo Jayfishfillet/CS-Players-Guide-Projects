@@ -22,8 +22,8 @@ class Battle
         Console.Clear();
         while (!battleOver)
         {
-            PartyChecker(heroParty, "Hero Party");
-            PartyChecker(enemyParty, "Enemy Party");
+            DefeatCheck(heroParty, "Hero Party");
+            DefeatCheck(enemyParty, "Enemy Party");
             if (!battleOver)
             {
                 Console.WriteLine($"======= Battle: {battleNumber} | Round: {round} =======\n");
@@ -38,10 +38,12 @@ class Battle
             {
                 if (hero.isAlive)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.WriteLine($"It is {hero.Name}'s turn...\n");
+                    Console.ResetColor();
                     Thread.Sleep(500);
                     var randomAliveUnit = enemyParty.Where(e => e.isAlive).ToList();
-                    hero.PerformAction(random.Next(hero.Actions.Count), randomAliveUnit[random.Next(randomAliveUnit.Count)]);
+                    hero.PerformAction(hero.ChooseAction(), randomAliveUnit[random.Next(randomAliveUnit.Count)]);
                     Thread.Sleep(2000);
                 }
             }
@@ -49,7 +51,9 @@ class Battle
             {
                 if (enemy.isAlive)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
                     Console.WriteLine($"It is {enemy.Name}'s turn...\n");
+                    Console.ResetColor();
                     Thread.Sleep(500);
                     var randomAliveUnit = heroParty.Where(e => e.isAlive).ToList();
                     enemy.PerformAction(random.Next(enemy.Actions.Count), randomAliveUnit[random.Next(randomAliveUnit.Count)]);
@@ -58,12 +62,14 @@ class Battle
             }
         }
 
-        void PartyChecker(List<CharacterUnit> party, string partyName)
+        void DefeatCheck(List<CharacterUnit> party, string partyName)
         {
             if (party.All(p => p.isAlive == false))
             {
                 battleOver = true;
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine($"{partyName} has been defeated.");
+                Console.ResetColor();
                 Console.WriteLine("Press any key to continue.");
                 Console.ReadKey(true);
             }

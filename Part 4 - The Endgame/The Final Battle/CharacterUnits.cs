@@ -1,4 +1,7 @@
 ﻿using EndGame.ActionManagement;
+using System.Runtime.CompilerServices;
+using System.Text;
+
 namespace EndGame.CharacterUnits;
 
 public class CharacterUnit
@@ -21,6 +24,31 @@ public class CharacterUnit
     {
         Console.Write(Name + " ");
         Actions[index].Invoke(target);
+    }
+
+    public int ChooseAction()
+    {
+        Console.WriteLine($"----------Available Actions---------\n");
+        foreach (Action<CharacterUnit> action in Actions)
+        {
+            Console.WriteLine($"{Actions.IndexOf(action) + 1} - {action.Method.Name}");
+        }
+        Console.WriteLine($"\n-----------------------------------");
+        try
+        {
+            return Console.ReadKey(true).Key switch
+            {
+                ConsoleKey.D1 or ConsoleKey.NumPad1 => 0,
+                ConsoleKey.D2 or ConsoleKey.NumPad2 => 1,
+                ConsoleKey.D3 or ConsoleKey.NumPad3 => 2,
+                ConsoleKey.D4 or ConsoleKey.NumPad4 => 3,
+                ConsoleKey.D5 or ConsoleKey.NumPad5 => 4
+            };
+        }
+        catch (SwitchExpressionException)
+        {
+            return 0;
+        }
     }
 }
 

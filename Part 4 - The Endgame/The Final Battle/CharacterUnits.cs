@@ -1,6 +1,6 @@
 ﻿using EndGame.ActionManagement;
+using EndGame.Items;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace EndGame.CharacterUnits;
 
@@ -10,10 +10,12 @@ public class CharacterUnit
     public string Name { get; init; }
     public int MaxHP { get; init; }
     public int CurrentHP { get; set; }
+    private int attackModifier;
+    private int defenseModifier;
     public bool isAlive { get; set; } = true;
     public List<Action<CharacterUnit>> Actions { get; init; }
 
-    public CharacterUnit(string name, ActionManager actionManager, int maxHP)
+    public CharacterUnit(string name, ActionManager actionManager, int maxHP, ref List<Item> inventory)
     {
         Name = name;
         Actions = actionManager.actionList;
@@ -28,12 +30,12 @@ public class CharacterUnit
 
     public int ChooseAction()
     {
-        Console.WriteLine($"----------Available Actions---------\n");
+        Console.WriteLine("++++++ Available Actions ++++++\n");
         foreach (Action<CharacterUnit> action in Actions)
         {
             Console.WriteLine($"{Actions.IndexOf(action) + 1} - {action.Method.Name}");
         }
-        Console.WriteLine($"\n-----------------------------------");
+        Console.WriteLine("\n+++++++++++++++++++++++++++++++");
         try
         {
             return Console.ReadKey(true).Key switch
@@ -54,14 +56,14 @@ public class CharacterUnit
 
 class Enemy : CharacterUnit
 {
-    public Enemy(string name, ActionManager actionManager, int maxHP) : base(name, actionManager, maxHP)
+    public Enemy(string name, ActionManager actionManager, int maxHP, ref List<Item> inventory) : base(name, actionManager, maxHP, ref inventory)
     {
     }
 }
 
 class Hero : CharacterUnit
 {
-    public Hero(string name, ActionManager actionManager, int maxHP) : base(name, actionManager, maxHP)
+    public Hero(string name, ActionManager actionManager, int maxHP, ref List<Item> inventory) : base(name, actionManager, maxHP, ref inventory)
     {
     }
 }

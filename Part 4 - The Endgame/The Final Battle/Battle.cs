@@ -1,9 +1,12 @@
 ﻿using EndGame.CharacterUnits;
+using System;
+
 namespace EndGame.Battle;
 
 class Battle
 {
     int round = 1;
+    public bool heroTurn = true;
     bool battleOver = false;
     private int battleNumber;
     Random random = new();
@@ -22,45 +25,57 @@ class Battle
         Console.Clear();
         while (!battleOver)
         {
-            DefeatCheck(heroParty, "Hero Party");
-            DefeatCheck(enemyParty, "Enemy Party");
+            //DefeatCheck(heroParty, "Hero Party");
+            //DefeatCheck(enemyParty, "Enemy Party");
             if (!battleOver)
             {
-                Console.WriteLine($"======= Battle: {battleNumber} | Round: {round} =======\n");
-                TurnManager();
+                HeroTurn();
+                EnemyTurn();
+                BattleDisplay();
+                DefeatCheck(heroParty, "Hero Party");
+                DefeatCheck(enemyParty, "Enemy Party");
+
                 round++;
             }
         }
 
-        void TurnManager()
+        void HeroTurn()
         {
             foreach (CharacterUnit hero in heroParty)
             {
-                if (hero.isAlive)
+                if (hero.isAlive && enemyParty.Any(e => e.isAlive))
                 {
-                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+                    BattleDisplay();
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine($"It is {hero.Name}'s turn...\n");
                     Console.ResetColor();
                     Thread.Sleep(500);
                     var randomAliveUnit = enemyParty.Where(e => e.isAlive).ToList();
                     hero.PerformAction(hero.ChooseAction(), randomAliveUnit[random.Next(randomAliveUnit.Count)]);
+                    heroTurn = false;
                     Thread.Sleep(2000);
                 }
             }
+        }
+        void EnemyTurn()
+        {
             foreach (CharacterUnit enemy in enemyParty)
             {
-                if (enemy.isAlive)
+                if (enemy.isAlive && heroParty.Any(h => h.isAlive))
                 {
+                    BattleDisplay();
                     Console.ForegroundColor = ConsoleColor.DarkRed;
                     Console.WriteLine($"It is {enemy.Name}'s turn...\n");
                     Console.ResetColor();
                     Thread.Sleep(500);
                     var randomAliveUnit = heroParty.Where(e => e.isAlive).ToList();
                     enemy.PerformAction(random.Next(enemy.Actions.Count), randomAliveUnit[random.Next(randomAliveUnit.Count)]);
+                    heroTurn = true;
                     Thread.Sleep(2000);
                 }
             }
         }
+
 
         void DefeatCheck(List<CharacterUnit> party, string partyName)
         {
@@ -74,5 +89,26 @@ class Battle
                 Console.ReadKey(true);
             }
         }
+
+        void BattleDisplay()
+        {
+            Console.Clear();
+            Console.WriteLine($"===================== Battle: {battleNumber} | Round: {round} =====================");
+            foreach (Hero hero in heroParty)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("{0,-10} ({1}/{2})", hero.Name, Math.Clamp(hero.CurrentHP, 0, 999), hero.MaxHP);
+                Console.ResetColor();
+            }
+            Console.WriteLine("-------------------------------VS-------------------------------");
+            foreach (Enemy enemy in enemyParty)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("{0,56} ({1}/{2})", enemy.Name, Math.Clamp(enemy.CurrentHP, 0, 999), enemy.MaxHP);
+                Console.ResetColor();
+            }
+            Console.WriteLine("================================================================\n");
+        }
     }
 }
+

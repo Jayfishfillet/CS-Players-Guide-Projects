@@ -2,6 +2,7 @@
 using EndGame.CharacterUnits;
 using EndGame.UnitActions;
 using EndGame.ActionManagement;
+using EndGame.Items;
 
 Console.Title = "The Final Battle";
 
@@ -9,17 +10,19 @@ Console.Write("True Programmer! What is your name? ");
 string? name = Console.ReadLine();
 
 #region Hero Party
+List<Item> heroInventory = new() { new Potion(), new Potion(), new Potion()};
 List<CharacterUnit> heroParty = new();
-Hero trueProgrammer = new Hero(name ?? "Hero", new ActionManager(UnitActions.DoNothing, UnitActions.Punch), 25);
+Hero trueProgrammer = new Hero(name ?? "Hero", new ActionManager(UnitActions.DoNothing, UnitActions.Punch), 25, ref heroInventory);
 heroParty.Add(trueProgrammer);
 #endregion
 
 #region Enemy setup
+List<Item> enemyInventory = new();
 List<CharacterUnit> enemyParty = new();
-Enemy skeleton  = new Enemy("Skeleton", new ActionManager(UnitActions.BoneCrunch, UnitActions.DoNothing), 5);
-Enemy skeleton2 = new Enemy("Skeleton", new ActionManager(UnitActions.BoneCrunch, UnitActions.DoNothing), 5);
-Enemy skeleton3 = new Enemy("Skeleton", new ActionManager(UnitActions.BoneCrunch, UnitActions.DoNothing), 5);
-Enemy Uncoded   = new Enemy("The Uncoded One", new ActionManager(UnitActions.Unraveling), 15);
+Enemy skeleton  = new Enemy("Skeleton", new ActionManager(UnitActions.BoneCrunch), 5, ref enemyInventory);
+Enemy skeleton2 = new Enemy("Skeleton", new ActionManager(UnitActions.BoneCrunch), 5, ref enemyInventory);
+Enemy skeleton3 = new Enemy("Skeleton", new ActionManager(UnitActions.BoneCrunch), 5, ref enemyInventory);
+Enemy Uncoded   = new Enemy("The Uncoded One", new ActionManager(UnitActions.Unraveling), 15, ref enemyInventory);
 #endregion
 
 Battle battle = new(heroParty, null, 0);
@@ -48,8 +51,9 @@ void ExecuteBattle(List<CharacterUnit> heroParty, List<CharacterUnit> enemyParty
 {
     foreach (CharacterUnit u in enemies) { enemyParty.Add(u);}
     battle = new(heroParty, enemyParty, battleNumber);
+    enemyInventory.Clear();
+    enemyInventory.Add(new Potion());
     battle.BeginBattle();
     enemyParty.Clear();
     finishedBattle = battleNumber;
 }
- 

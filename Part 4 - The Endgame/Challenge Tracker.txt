@@ -8,9 +8,9 @@ Core Game: Death
 Core Game: Battle Series
 Core Game The Uncoded One
 Core Game: The Player Decides
+Expansion: The Game’s Status
 
 To Do:
-Expansion: The Game’s Status
 Expansion: Items
 Expansion: Gear
 Expansion: Stolen Inventory

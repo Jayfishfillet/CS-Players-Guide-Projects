@@ -8,9 +8,13 @@ public static class UnitActions
         Console.WriteLine("DID NOTHING.");
         Console.WriteLine();
     }
+    public static void UseItem(CharacterUnit target)
+    { 
+        
+    }
     public static void Punch(CharacterUnit target)
     {
-        int damage = 5;
+        int damage = 2;
         Console.WriteLine($"used PUNCH on {target.Name}...");
 
         Console.WriteLine($"PUNCH did {damage} damage!");

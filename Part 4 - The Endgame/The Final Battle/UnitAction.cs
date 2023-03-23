@@ -305,10 +305,10 @@ public static class UnitAction
         damage = HelperMethod.CriticalRoll(damage, critChance);
 
         Console.WriteLine($"{self.Name} SLASHED {target.Name}...");
-        Console.WriteLine($"SLASH did {damage} {AttackType.Normal.ToString().ToUpper()} damage!");
+        Console.WriteLine($"CODEFORGE SLASH did {damage} {AttackType.Normal.ToString().ToUpper()} damage!");
         Console.WriteLine();
         Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine("CodeForge Slash's Empowered the Sword of Creation! Attack increased by 1!");
+        Console.WriteLine("CodeForge Slash Empowered the Sword of Creation! Attack increased by 1!");
         Console.ResetColor();
         target.CurrentHP -= damage;
         HelperMethod.AttackMessaging(target);

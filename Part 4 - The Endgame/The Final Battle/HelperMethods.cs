@@ -5,12 +5,12 @@ using EndGame.UnitActions;
 namespace EndGame.HelperMethods;
 public static class HelperMethod
 {
-    public static void DeathCheck(CharacterUnit target)
+    public static void DefeatCheck(CharacterUnit target)
     {
         if (target.CurrentHP <= 0)
         {
             target.isAlive = false;
-            Console.WriteLine($"{target.Name} has been slain!");
+            Console.WriteLine($"{target.Name} has been defeated!");
             target.Inventory.Add(target.CurrentWeapon);
             target.CurrentWeapon = null;
         }
@@ -22,7 +22,7 @@ public static class HelperMethod
     public static void AttackMessaging(CharacterUnit target)
     {
         Console.WriteLine($"{target.Name} has {Clamper(target.CurrentHP)}/{target.MaxHP} HP");
-        DeathCheck(target);
+        DefeatCheck(target);
         Console.WriteLine();
     }
     public static void UseHealingItem(CharacterUnit self, HealingItem healingItem)

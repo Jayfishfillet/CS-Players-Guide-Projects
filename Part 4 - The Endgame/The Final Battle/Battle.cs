@@ -1,4 +1,7 @@
 ﻿using EndGame.CharacterUnits;
+using EndGame.HelperMethods;
+using EndGame.Items;
+using EndGame.UnitActions;
 using System;
 
 namespace EndGame.Battle;
@@ -51,9 +54,8 @@ class Battle
                     Console.ResetColor();
                     Thread.Sleep(500);
                     var randomAliveUnit = enemyParty.Where(e => e.isAlive).ToList();
-                    hero.PerformAction(hero.ChooseAction(), randomAliveUnit[random.Next(randomAliveUnit.Count)]);
-                    heroTurn = false;
-                    Thread.Sleep(2000);
+                    hero.PerformAction(hero.ChooseAction(), randomAliveUnit[random.Next(randomAliveUnit.Count)], hero);
+                    Thread.Sleep(2500);
                 }
             }
         }
@@ -69,9 +71,15 @@ class Battle
                     Console.ResetColor();
                     Thread.Sleep(500);
                     var randomAliveUnit = heroParty.Where(e => e.isAlive).ToList();
-                    enemy.PerformAction(random.Next(enemy.Actions.Count), randomAliveUnit[random.Next(randomAliveUnit.Count)]);
-                    heroTurn = true;
-                    Thread.Sleep(2000);
+                    if (!enemy.CanEquip)
+                    {
+                        enemy.PerformAction(random.Next(enemy.Actions.Count), randomAliveUnit[random.Next(randomAliveUnit.Count)], enemy);
+                    }
+                    if (enemy.CanEquip)
+                    {
+                        enemy.PerformAction(enemy.Actions.IndexOf(UnitAction.Equip), randomAliveUnit[random.Next(randomAliveUnit.Count)], enemy);
+                    }
+                    Thread.Sleep(2500);
                 }
             }
         }
@@ -81,30 +89,54 @@ class Battle
         {
             if (party.All(p => p.isAlive == false))
             {
-                battleOver = true;
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine($"{partyName} has been defeated.");
                 Console.ResetColor();
                 Console.WriteLine("Press any key to continue.");
                 Console.ReadKey(true);
+
+                if (party == heroParty)
+                {
+                    TransferInventory(party, enemyParty);
+                }
+                else
+                {
+                    TransferInventory(party, heroParty);
+                }
+
+                battleOver = true;
+
             }
+
+            void TransferInventory(List<CharacterUnit> losingParty, List<CharacterUnit> winningParty)
+            {
+                foreach (CharacterUnit unit in losingParty)
+                {
+                    foreach (Item item in unit.Inventory)
+                    {
+                        winningParty.ForEach(winner => winner.Inventory.Add(item));
+                    }
+                    unit.Inventory.Clear();
+                }
+            }
+
         }
 
         void BattleDisplay()
         {
             Console.Clear();
-            Console.WriteLine($"===================== Battle: {battleNumber} | Round: {round} =====================");
+            Console.WriteLine($"===================== Battle: {battleNumber} | Round: {round} =====================\n");
             foreach (Hero hero in heroParty)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("{0,-10} ({1}/{2})", hero.Name, Math.Clamp(hero.CurrentHP, 0, 999), hero.MaxHP);
+                Console.WriteLine("{0, -15} ({1}/{2}) | {3}", hero.Name, Math.Clamp(hero.CurrentHP, 0, 999), hero.MaxHP, "Weapon: " + hero.CurrentWeapon.ItemName ?? "No Weapon");
                 Console.ResetColor();
             }
-            Console.WriteLine("-------------------------------VS-------------------------------");
+            Console.WriteLine("\n-------------------------------VS-------------------------------\n");
             foreach (Enemy enemy in enemyParty)
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("{0,56} ({1}/{2})", enemy.Name, Math.Clamp(enemy.CurrentHP, 0, 999), enemy.MaxHP);
+                Console.WriteLine("{0,40} ({1}/{2}) | {3}", enemy.Name, Math.Clamp(enemy.CurrentHP, 0, 999), enemy.MaxHP, "Weapon: " + (enemy.CurrentWeapon?.ItemName ?? "None"));
                 Console.ResetColor();
             }
             Console.WriteLine("================================================================\n");

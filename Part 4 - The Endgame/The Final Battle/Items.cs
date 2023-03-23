@@ -1,4 +1,6 @@
-﻿namespace EndGame.Items;
+﻿using EndGame.CharacterUnits;
+
+namespace EndGame.Items;
 
 public class Item
 {
@@ -6,15 +8,28 @@ public class Item
     public string? ItemName { get; init; }
 }
 
-public class Potion : Item
+public class HealingItem : Item
 {
-    public readonly int HpValue = 10;
-    public Potion()
+    public int HealAmount { get; init; }
+    public HealingItem(string itemName, int healAmount)
     {
         Type = Itemtype.Healing;
-        ItemName = "Healing Potion";
+        ItemName = itemName;
+        HealAmount = healAmount;
     }
+}
 
+public class Weapon : Item
+{
+    public int AttackDamage { get; init; }
+    public Action<CharacterUnit, CharacterUnit> SpecialAttack { get; init; }
+    public Weapon(string itemName, int attackDamage, Action<CharacterUnit, CharacterUnit> specialAttack)
+    {
+        Type = Itemtype.Weapon;
+        ItemName = itemName;
+        AttackDamage = attackDamage;
+        SpecialAttack = specialAttack;
+    }
 }
 
 public enum Itemtype { Weapon, Healing, Armor }

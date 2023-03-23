@@ -9,13 +9,13 @@ Core Game: Battle Series
 Core Game The Uncoded One
 Core Game: The Player Decides
 Expansion: The Game’s Status
-
-To Do:
 Expansion: Items
 Expansion: Gear
 Expansion: Stolen Inventory
 Expansion: Vin Fletcher
 Expansion: Attack Modifiers
 Expansion: Damage Types
+
+To Do:
 Expansion: Making it Yours
 Expansion: Restoring Balance

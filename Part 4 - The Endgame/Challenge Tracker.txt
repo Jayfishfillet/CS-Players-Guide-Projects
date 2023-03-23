@@ -15,7 +15,9 @@ Expansion: Stolen Inventory
 Expansion: Vin Fletcher
 Expansion: Attack Modifiers
 Expansion: Damage Types
-
-To Do:
 Expansion: Making it Yours
 Expansion: Restoring Balance
+
+
+To Do:
+NONE

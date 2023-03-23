@@ -4,9 +4,9 @@ using EndGame.Items;
 using EndGame.UnitActions;
 using System;
 
-namespace EndGame.Battle;
+namespace EndGame.Battles;
 
-class Battle
+public class Battle
 {
     int round = 1;
     public bool heroTurn = true;
@@ -28,8 +28,6 @@ class Battle
         Console.Clear();
         while (!battleOver)
         {
-            //DefeatCheck(heroParty, "Hero Party");
-            //DefeatCheck(enemyParty, "Enemy Party");
             if (!battleOver)
             {
                 HeroTurn();
@@ -54,8 +52,10 @@ class Battle
                     Console.ResetColor();
                     Thread.Sleep(500);
                     var randomAliveUnit = enemyParty.Where(e => e.isAlive).ToList();
-                    hero.PerformAction(hero.ChooseAction(), randomAliveUnit[random.Next(randomAliveUnit.Count)], hero);
-                    Thread.Sleep(2500);
+                    hero.PerformAction(hero.ChooseAction(this), randomAliveUnit[random.Next(randomAliveUnit.Count)], hero);
+                    Thread.Sleep(2000);
+                    Console.WriteLine("Press any key to continue.");
+                    Console.ReadKey(true);
                 }
             }
         }
@@ -79,7 +79,9 @@ class Battle
                     {
                         enemy.PerformAction(enemy.Actions.IndexOf(UnitAction.Equip), randomAliveUnit[random.Next(randomAliveUnit.Count)], enemy);
                     }
-                    Thread.Sleep(2500);
+                    Thread.Sleep(2000);
+                    Console.WriteLine("Press any key to continue.");
+                    Console.ReadKey(true);
                 }
             }
         }
@@ -121,26 +123,24 @@ class Battle
             }
 
         }
-
-        void BattleDisplay()
+    }
+    public void BattleDisplay()
+    {
+        Console.Clear();
+        Console.WriteLine($"========================== Battle: {battleNumber} | Round: {round} ==========================\n");
+        foreach (Hero hero in heroParty)
         {
-            Console.Clear();
-            Console.WriteLine($"===================== Battle: {battleNumber} | Round: {round} =====================\n");
-            foreach (Hero hero in heroParty)
-            {
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("{0, -15} ({1}/{2}) | {3}", hero.Name, Math.Clamp(hero.CurrentHP, 0, 999), hero.MaxHP, "Weapon: " + hero.CurrentWeapon.ItemName ?? "No Weapon");
-                Console.ResetColor();
-            }
-            Console.WriteLine("\n-------------------------------VS-------------------------------\n");
-            foreach (Enemy enemy in enemyParty)
-            {
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("{0,40} ({1}/{2}) | {3}", enemy.Name, Math.Clamp(enemy.CurrentHP, 0, 999), enemy.MaxHP, "Weapon: " + (enemy.CurrentWeapon?.ItemName ?? "None"));
-                Console.ResetColor();
-            }
-            Console.WriteLine("================================================================\n");
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("{0, -15} ({1}/{2}) | {3}", hero.Name, Math.Clamp(hero.CurrentHP, 0, 999), hero.MaxHP, "Weapon: " + hero.CurrentWeapon?.ItemName ?? "None");
+            Console.ResetColor();
         }
+        Console.WriteLine("\n------------------------------------VS------------------------------------\n");
+        foreach (Enemy enemy in enemyParty)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("{0,40} ({1}/{2}) | {3}", enemy.Name, Math.Clamp(enemy.CurrentHP, 0, 999), enemy.MaxHP, "Weapon: " + (enemy.CurrentWeapon?.ItemName ?? "None"));
+            Console.ResetColor();
+        }
+        Console.WriteLine("==========================================================================\n");
     }
 }
-

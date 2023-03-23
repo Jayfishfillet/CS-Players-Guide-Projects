@@ -1,8 +1,8 @@
 ﻿using EndGame.ActionManagement;
 using EndGame.Items;
 using EndGame.UnitActions;
+using EndGame.Battles;
 using System;
-using System.Runtime.CompilerServices;
 
 namespace EndGame.CharacterUnits;
 
@@ -38,43 +38,56 @@ public class CharacterUnit
         }
     }
 
-    public int ChooseAction()
+    public int ChooseAction(Battle battle)
     {
-        if (CurrentWeapon != null)
+        int selectedIndex = -1;
+
+        while (selectedIndex < 0)
         {
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.WriteLine("{0,26}", $"Current Weapon: {CurrentWeapon.ItemName}");
-            Console.ResetColor();
-        }
-        Console.WriteLine("++++++ Available Actions ++++++\n");
-        if (CurrentWeapon != null && !Actions.Contains(CurrentWeapon.SpecialAttack))
-        {
-            Actions.Add(CurrentWeapon.SpecialAttack);
-        }
-        foreach (Action<CharacterUnit, CharacterUnit> action in Actions)
-        {
-            Console.WriteLine($"{Actions.IndexOf(action) + 1} - {action.Method.Name}");
-        }
-        Console.WriteLine("\n+++++++++++++++++++++++++++++++");
-        try
-        {
-            return Console.ReadKey(true).Key switch
+            if (CurrentWeapon != null)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.WriteLine("{0,26}", $"Current Weapon: {CurrentWeapon.ItemName}");
+                Console.ResetColor();
+            }
+            Console.WriteLine("++++++ Available Actions ++++++\n");
+            if (CurrentWeapon != null && !Actions.Contains(CurrentWeapon.SpecialAttack))
+            {
+                Actions.Add(CurrentWeapon.SpecialAttack);
+            }
+            foreach (Action<CharacterUnit, CharacterUnit> action in Actions)
+            {
+                Console.WriteLine($"{Actions.IndexOf(action) + 1} - {action.Method.Name}");
+            }
+            Console.WriteLine("\n+++++++++++++++++++++++++++++++");
+
+            var keyPressed = Console.ReadKey(true).Key;
+
+            selectedIndex = keyPressed switch
             {
                 ConsoleKey.D1 or ConsoleKey.NumPad1 => 0,
                 ConsoleKey.D2 or ConsoleKey.NumPad2 => 1,
                 ConsoleKey.D3 or ConsoleKey.NumPad3 => 2,
                 ConsoleKey.D4 or ConsoleKey.NumPad4 => 3,
                 ConsoleKey.D5 or ConsoleKey.NumPad5 => 4,
-                ConsoleKey.D6 or ConsoleKey.NumPad5 => 5,
-                ConsoleKey.D7 or ConsoleKey.NumPad5 => 6,
-                ConsoleKey.D8 or ConsoleKey.NumPad5 => 7,
-                ConsoleKey.D9 or ConsoleKey.NumPad5 => 8,
+                ConsoleKey.D6 or ConsoleKey.NumPad6 => 5,
+                ConsoleKey.D7 or ConsoleKey.NumPad7 => 6,
+                ConsoleKey.D8 or ConsoleKey.NumPad8 => 7,
+                ConsoleKey.D9 or ConsoleKey.NumPad7 => 8,
+                _ => -1,
             };
+
+            if (selectedIndex < 0 || selectedIndex >= Actions.Count)
+            {
+                battle.BattleDisplay();
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("Invalid Selection, please try again\n");
+                Console.ResetColor();
+                selectedIndex = -1;
+            }
         }
-        catch (SwitchExpressionException)
-        {
-            return 0;
-        }
+
+        return selectedIndex;
     }
 
     public enum Party { Hero, Enemy }

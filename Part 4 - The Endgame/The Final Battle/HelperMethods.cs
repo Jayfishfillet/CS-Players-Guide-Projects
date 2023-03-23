@@ -17,7 +17,7 @@ public static class HelperMethod
     }
     public static int Clamper(int hP)
     {
-        return Math.Clamp(hP, 0, 100);
+        return Math.Clamp(hP, 0, 999);
     }
     public static void AttackMessaging(CharacterUnit target)
     {
@@ -73,7 +73,7 @@ public static class HelperMethod
             self.Actions.Add(self.CurrentWeapon.SpecialAttack);
         }
 
-        else if (self.CurrentWeapon != null)
+        else if (self.CurrentWeapon != null || self.Name == "The Uncoded One")
         {
             self.Actions.Add(self.CurrentWeapon.SpecialAttack);
             self.Actions.RemoveAll(a => a.Method.Name == nameof(UnitAction.BoneCrunch));
@@ -88,5 +88,58 @@ public static class HelperMethod
             return target.DefenseModifier.value;
         }
         else return 0;
+    }
+    public static int CriticalRoll(int damage, int critChance)
+    {
+        if (new Random().Next(100) + 1 <= critChance)
+        {
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("CRITICAL HIT");
+            Console.ResetColor();
+
+            return damage *= 2;
+        }
+        else return damage;
+        
+    }
+    public static int IsValidSelection(CharacterUnit self, List<HealingItem> healingItems, ConsoleKey choice)
+    {
+        int selection = -1;
+        switch (choice)
+        {
+            case ConsoleKey.NumPad1:
+            case ConsoleKey.D1:
+                selection = 0;
+                break;
+            case ConsoleKey.NumPad2:
+            case ConsoleKey.D2:
+                selection = 1;
+                break;
+            case ConsoleKey.NumPad3:
+            case ConsoleKey.D3:
+                selection = 2;
+                break;
+            case ConsoleKey.NumPad4:
+            case ConsoleKey.D4:
+                selection = 3;
+                break;
+            case ConsoleKey.NumPad5:
+            case ConsoleKey.D5:
+                selection = 4;
+                break;
+            case ConsoleKey.NumPad6:
+            case ConsoleKey.D6:
+                selection = 5;
+                break;
+        }
+
+        if (selection >= 0 && selection < healingItems.Count)
+        {
+            return 1;
+        }
+        else
+        {
+            return -1;
+        }
     }
 }

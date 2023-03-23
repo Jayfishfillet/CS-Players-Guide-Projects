@@ -21,7 +21,7 @@ public class HealingItem : Item
 
 public class Weapon : Item
 {
-    public int AttackDamage { get; init; }
+    public int AttackDamage { get; set; }
     public Action<CharacterUnit, CharacterUnit> SpecialAttack { get; init; }
     public Weapon(string itemName, int attackDamage, Action<CharacterUnit, CharacterUnit> specialAttack)
     {

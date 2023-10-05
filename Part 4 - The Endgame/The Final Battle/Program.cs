@@ -5,7 +5,7 @@ using EndGame.Items;
 
 Console.Title = "The Final Battle";
 
-Console.Write("True Programmer! What is your name? ");
+Console.Write("Who is you? ");
 string? name = Console.ReadLine();
 
 #region Hero Party
